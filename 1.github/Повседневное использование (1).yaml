@@ -1,0 +1,528 @@
+port: 0
+socks-port: 0
+redir-port: 0
+tproxy-port: 0
+mixed-port: 1024
+ss-config: ""
+vmess-config: ""
+inbound-tfo: false
+inbound-mptcp: false
+authentication: []
+skip-auth-prefixes: []
+lan-allowed-ips:
+  - "0.0.0.0/0"
+  - "::/0"
+lan-disallowed-ips: null
+allow-lan: false
+bind-address: "0.0.0.0"
+mode: "global"
+unified-delay: true
+log-level: "silent"
+ipv6: true
+external-controller: ""
+external-controller-routing-mark: 0
+external-controller-pipe: ""
+external-controller-unix: ""
+external-controller-tls: ""
+external-controller-cors:
+  allow-origins:
+    - "http://192.168.x.x:8080"
+  allow-private-network: true
+external-ui: ""
+external-ui-url: ""
+external-ui-name: ""
+external-doh-server: ""
+secret: "123456"
+interface-name: ""
+routing-mark: 0
+tunnels:
+  - network: null
+    address: ""
+    target: "127.0.0.1:9090"
+    proxy: ""
+geo-auto-update: false
+geo-update-interval: 24
+geodata-mode: false
+geodata-loader: "memconservative"
+geosite-matcher: ""
+tcp-concurrent: true
+find-process-mode: "off"
+global-client-fingerprint: ""
+global-ua: "FlClash/v0.8.99 clash-verge Platform/android"
+etag-support: true
+keep-alive-idle: 0
+keep-alive-interval: 30
+disable-keep-alive: false
+proxy-providers:
+  proton:
+    health-check:
+      enable: false
+      interval: 9999999
+      url: "http://protonvpn.com"
+    interval: 86400
+    override:
+      allowed-ips:
+        - "0.0.0.0/0"
+        - "::/0"
+      dialer-proxy: "Proton Выбор"
+      dns:
+        - "10.2.0.1"
+        - "2a07:b944::2:1"
+      mtu: 1420
+      port: 51820
+      remote-dns-resolve: true
+      udp: true
+    path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/proxies/0f6ead0d707953b9824286625cb343e2"
+    type: "http"
+    url: "https://raw.githubusercontent.com/Rusmer/Warp/refs/heads/main/g2sort.yaml"
+  white:
+    health-check:
+      enable: true
+      interval: 600
+      url: "http://www.gstatic.com/generate_204"
+    interval: 86400
+    override:
+      dialer-proxy: "Выбор"
+    path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/proxies/e1e94ce02ce32dd60d81c8e841889619"
+    type: "http"
+    url: "https://da.rusmersr.workers.dev/all.yaml"
+rule-providers:
+  discord:
+    behavior: "classical"
+    interval: 86400
+    path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/rules/98c2cffb7787f8f6e41fba64cd365adb"
+    type: "http"
+    url: "https://raw.githubusercontent.com/codelabhq/clash-warp-config/refs/heads/main/ruleset/discord.yaml"
+  rule1dst443:
+    behavior: "classical"
+    format: "yaml"
+    interval: 86400
+    path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/rules/27faf03cbf550b69efb0148801527bc5"
+    type: "http"
+    url: "https://raw.githubusercontent.com/Rusmer/Warp/refs/heads/main/rule.yaml"
+  rule2:
+    behavior: "classical"
+    format: "yaml"
+    interval: 86400
+    path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/rules/822e6be801052586ce228bef4ecb8027"
+    type: "http"
+    url: "https://raw.githubusercontent.com/Rusmer/Warp/refs/heads/main/rule1.yaml"
+proxies:
+  - allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    amnezia-wg-option:
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: "<r 2><b 0x858000010001000000000669636c6f756403636f6d0000010001c00c000100010000105a00044d583737>"
+      jc: 6
+      jmax: 50
+      jmin: 10
+      s1: 0
+      s2: 0
+    dns:
+      - "1.1.1.1"
+      - "1.0.0.1"
+      - "2606:4700:4700::1111"
+      - "2606:4700:4700::1001"
+    ip: "172.16.0.2"
+    ipv6: "2606:4700:110:8950:2d9:804b:4a88:924b"
+    mtu: 1280
+    name: "🇵🇱 PL"
+    port: 2408
+    private-key: "eBpkST+DpnuPXDNhi+HDbT54hm9KYirKNuuB67tqUnc="
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    remote-dns-resolve: true
+    server: "8.47.69.0"
+    type: "wireguard"
+    udp: true
+  - dialer-proxy: "Выбор"
+    dns:
+      - "1.1.1.1"
+      - "1.0.0.1"
+    ip: "172.16.0.2"
+    name: "🇷🇺 RU"
+    network: "h2"
+    port: 443
+    private-key: "MHcCAQEEIJZFTV/3AhxEZ8WQK8Lm53Zxyrt67UafDuo2Uu9QYsncoAoGCCqGSM49AwEHoUQDQgAE57kaS6t3BrM1e4ydKz43ZeZK7uVAaL1rv1m8+MbIwiJBrUdcGSWGD5AF21Bb/FIKQBl8pDexxyaVmU+gIvN6lg=="
+    public-key: "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w=="
+    remote-dns-resolve: true
+    server: "162.159.199.72"
+    sni: "icloud.com"
+    type: "masque"
+    udp: true
+  - dialer-proxy: "Белые списки"
+    dns:
+      - "1.1.1.1"
+      - "1.0.0.1"
+    ip: "172.16.0.2"
+    name: "🇳🇱 Белые списки"
+    network: "h2"
+    port: 4443
+    private-key: "MHcCAQEEIG2OBNpz0oP9/4etnM6roNhI2M/s+1sdDIyBtL9Kd6jnoAoGCCqGSM49AwEHoUQDQgAEHT2vJsX7GRhRlDD4kpa4NPBTtL4OdkomNaUDDyFQRdccohiIclchf3VLEpMOQ9rb2Y7jtqkWslbgU5+jlPVz1w=="
+    public-key: "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w=="
+    remote-dns-resolve: true
+    server: "162.159.198.7"
+    sni: "icloud.com"
+    type: "masque"
+    udp: true
+  - dialer-proxy: "🇨🇭 Proton ⠀"
+    dns:
+      - "1.1.1.1"
+      - "1.0.0.1"
+    ip: "172.16.0.2"
+    name: "🇨🇭 Proton"
+    network: "h2"
+    port: 4443
+    private-key: "MHcCAQEEIG2OBNpz0oP9/4etnM6roNhI2M/s+1sdDIyBtL9Kd6jnoAoGCCqGSM49AwEHoUQDQgAEHT2vJsX7GRhRlDD4kpa4NPBTtL4OdkomNaUDDyFQRdccohiIclchf3VLEpMOQ9rb2Y7jtqkWslbgU5+jlPVz1w=="
+    public-key: "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w=="
+    remote-dns-resolve: true
+    server: "162.159.198.7"
+    sni: "consumer-masque.cloudflareclient.com"
+    type: "masque"
+    udp: true
+  - allowed-ips:
+      - "0.0.0.0/0"
+    amnezia-wg-option:
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: "<r 2><b 0x858000010001000000000669636c6f756403636f6d0000010001c00c000100010000105a00044d583737>"
+      jc: 6
+      jmax: 50
+      jmin: 10
+      s1: 0
+      s2: 0
+    dialer-proxy: "Выбор"
+    ip: "172.16.0.2"
+    name: "AWG WARP OUTER"
+    port: 2408
+    private-key: "0MGFdWIiUzRoyU171IdWXwhxFTaEPjd4eWiE5ztCcls="
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    server: "188.114.97.139"
+    type: "wireguard"
+  - allowed-ips:
+      - "0.0.0.0/0"
+    dialer-proxy: "AWG WARP OUTER"
+    dns:
+      - "1.1.1.1"
+      - "1.0.0.1"
+    ip: "172.16.0.2"
+    mtu: 1280
+    name: "🇸🇪 SE"
+    port: 2408
+    private-key: "0C/henSVEOs4tWqG10c0piacyeMe0W80c3++vbfE8HI="
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    remote-dns-resolve: true
+    server: "8.39.125.246"
+    type: "wireguard"
+    udp: true
+  - amnezia-wg-option:
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: "<b 0xcb0000000101ec000040531f0c879b29ed9327ccfcea3723908c2b195f87e2619c76a8bebe47faae3dab9f6a97f36367b22c00bcfc051e3fcc737544ef70de1f35ed0eecf12496c58004232679b91d57a275c252699c43e0fac10d1f8516>"
+      jc: 6
+      jmax: 50
+      jmin: 10
+      s1: 0
+      s2: 0
+    dns:
+      - "1.1.1.1"
+      - "1.0.0.1"
+    ip: "172.16.0.2"
+    name: "🇩🇪 DE"
+    peers:
+      - allowed-ips:
+          - "0.0.0.0/0"
+        persistent-keepalive: 25
+        port: 2408
+        public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        server: "162.159.195.100"
+    private-key: "QNjmlrAiGak5D1ZYzPCc8gQwWJCsRW+tnL0J54ypiFk="
+    remote-dns-resolve: true
+    type: "wireguard"
+    udp: true
+  - name: "🏫 Школа"
+    port: 3128
+    server: "10.0.35.52"
+    tls: false
+    type: "http"
+  - name: "🏠 Дом"
+    type: "direct"
+  - name: "🔓 Без ВПН"
+    type: "direct"
+proxy-groups:
+  - name: "GLOBAL"
+    type: "select"
+    proxies:
+      - "🇨🇭 Proton ⠀"
+      - "🇳🇱 Белые списки ⠀"
+      - "🇺🇸 Cloudflare WARP"
+      - "🏫 Школа"
+    lazy: true
+    hidden: true
+  - name: "Выбор"
+    type: "select"
+    proxies:
+      - "🏫 Школа"
+      - "🏠 Дом"
+    icon: "https://raw.githubusercontent.com/codelabhq/icons/main/relay-icon.svg"
+  - name: "Всё"
+    type: "select"
+    proxies:
+      - "🇺🇸 Cloudflare WARP"
+      - "🇳🇱 Белые списки ⠀"
+      - "🇨🇭 Proton ⠀"
+      - "🔓 Без впн"
+    lazy: true
+    icon: "https://raw.githubusercontent.com/codelabhq/icons/main/global-icon.svg"
+  - name: "Белые списки"
+    type: "select"
+    proxies:
+      - "🔓 Без ВПН"
+    use:
+      - "white"
+    lazy: false
+    include-all-providers: false
+    icon: "https://raw.githubusercontent.com/codelabhq/icons/main/proxy-icon.svg"
+  - name: "Proton"
+    type: "select"
+    use:
+      - "proton"
+    url: "http://protonvpn.com"
+    interval: 0
+    timeout: 100000
+    max-failed-times: 1
+    lazy: false
+    icon: "https://res.cloudinary.com/dbulfrlrz/image/upload/v1703162849/static/logos/icons/vpn_f9embt.svg"
+  - name: "Cloudflare WARP"
+    type: "select"
+    proxies:
+      - "🇵🇱 PL"
+      - "🇷🇺 RU"
+      - "🇳🇱 Белые списки"
+      - "🇩🇪 DE"
+      - "🇨🇭 Proton"
+      - "🔓 Без впн"
+    url: "http://protonvpn.com"
+    max-failed-times: 99
+    lazy: true
+    include-all-proxies: false
+    icon: "https://raw.githubusercontent.com/codelabhq/icons/main/cloudflare-icon.svg"
+  - name: "Игры"
+    type: "select"
+    proxies:
+      - "🇨🇭 Proton ⠀"
+      - "🇳🇱 Белые списки ⠀"
+      - "🇺🇸 Cloudflare WARP"
+      - "🔓 Без впн"
+    lazy: true
+    icon: "https://raw.githubusercontent.com/codelabhq/icons/main/steampowered-icon.svg"
+  - name: "Русские сервисы"
+    type: "select"
+    proxies:
+      - "🇨🇭 Proton ⠀"
+      - "🇳🇱 Белые списки ⠀"
+      - "🇺🇸 Cloudflare WARP"
+      - "🔓 Без впн"
+    lazy: true
+    disable-udp: false
+    icon: "https://raw.githubusercontent.com/codelabhq/icons/main/telegram-icon.svg"
+  - name: "Geforce NOW"
+    type: "select"
+    proxies:
+      - "🇨🇭 Proton ⠀"
+      - "🇳🇱 Белые списки ⠀"
+      - "🇺🇸 Cloudflare WARP"
+      - "🔓 Без впн"
+    lazy: true
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWvkhCAE-ZGGPFsqh-tno88LSPhNoh-AjAqQ&s"
+  - name: "Остальное"
+    type: "select"
+    proxies:
+      - "🇨🇭 Proton ⠀"
+      - "🇳🇱 Белые списки ⠀"
+      - "🇺🇸 Cloudflare WARP"
+      - "🔓 Без впн"
+    icon: "https://raw.githubusercontent.com/codelabhq/icons/main/meta-icon.svg"
+  - name: "🔓 Без впн"
+    type: "select"
+    proxies:
+      - "Выбор"
+    hidden: true
+  - name: "🇨🇭 Proton ⠀"
+    type: "select"
+    proxies:
+      - "Proton"
+    hidden: true
+  - name: "🇺🇸 Cloudflare WARP"
+    type: "select"
+    proxies:
+      - "Cloudflare WARP"
+    hidden: true
+  - name: "🇳🇱 Белые списки ⠀"
+    type: "select"
+    proxies:
+      - "Белые списки"
+    hidden: true
+  - name: "Proton Выбор"
+    type: "select"
+    proxies:
+      - "🇳🇱 Белые списки ⠀"
+      - "🇺🇸 Cloudflare WARP"
+      - "DIRECT"
+      - "🇷🇺 RU"
+    include-all-providers: false
+    hidden: true
+sub-rules: null
+listeners: null
+hosts: {}
+dns:
+  enable: true
+  prefer-h3: false
+  ipv6: true
+  ipv6-timeout: 100
+  use-hosts: true
+  use-system-hosts: true
+  respect-rules: false
+  nameserver:
+    - "1.1.1.1"
+  fallback: null
+  fallback-filter:
+    geoip: true
+    geoip-code: "CN"
+    ipcidr: []
+    domain: null
+    geosite: []
+  fallback-lazy-query: false
+  listen: ""
+  listen-routing-mark: 0
+  enhanced-mode: "fake-ip"
+  fake-ip-range: "198.18.0.1/16"
+  fake-ip-range6: "fdfe:dcba:9876::1/64"
+  fake-ip-filter:
+    - "dns.msftnsci.com"
+    - "www.msftnsci.com"
+    - "www.msftconnecttest.com"
+  fake-ip-filter-mode: "blacklist"
+  fake-ip-ttl: 1
+  default-nameserver:
+    - "114.114.114.114"
+    - "223.5.5.5"
+    - "8.8.8.8"
+    - "1.0.0.1"
+  cache-algorithm: ""
+  cache-max-size: 0
+  nameserver-policy: null
+  proxy-server-nameserver: null
+  proxy-server-nameserver-policy: null
+  direct-nameserver: null
+  direct-nameserver-follow-policy: false
+ntp:
+  enable: false
+  server: "time.apple.com"
+  port: 123
+  interval: 30
+  dialer-proxy: ""
+  write-to-system: false
+tun:
+  enable: false
+  device: "FlClash"
+  stack: "mixed"
+  dns-hijack:
+    - "any:53"
+  auto-route: true
+  auto-detect-interface: true
+  inet6-address:
+    - "fdfe:dcba:9876::1/126"
+  file-descriptor: 0
+  recvmsgx: true
+  processors-per-channel: 1
+  route-address: []
+tuic-server:
+  enable: false
+  listen: ""
+  token: null
+  certificate: ""
+  private-key: ""
+  max-idle-time: 15000
+  authentication-timeout: 1000
+  alpn:
+    - "h3"
+  max-udp-relay-packet-size: 1500
+iptables:
+  enable: false
+  inbound-interface: "lo"
+  bypass: []
+  dns-redirect: true
+experimental:
+  fingerprints: null
+  quic-go-disable-gso: false
+  quic-go-disable-ecn: true
+  dialer-ip4p-convert: false
+profile:
+  store-selected: false
+  store-fake-ip: false
+geox-url:
+  mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.metadb"
+  asn: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb"
+  geoip: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
+  geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+sniffer:
+  enable: false
+  override-destination: true
+  sniffing: null
+  force-domain: []
+  skip-src-address: null
+  skip-dst-address: null
+  skip-domain: []
+  port-whitelist: []
+  force-dns-mapping: true
+  parse-pure-ip: true
+  sniff: {}
+tls:
+  certificate: ""
+  private-key: ""
+  client-auth-type: ""
+  client-auth-cert: ""
+  ech-key: ""
+  custom-certifactes: null
+clash-for-android:
+  append-system-dns: false
+  ui-subtitle-pattern: ""
+rules:
+  - "RULE-SET,discord,Остальное"
+  - "DOMAIN-KEYWORD,google,Всё"
+  - "PROCESS-PATH-REGEX,dnevnik,Русские сервисы"
+  - "PROCESS-NAME,ru.oneme.app,Русские сервисы"
+  - "DOMAIN-KEYWORD,Disney ,Остальное"
+  - "DOMAIN,apis.roblox.com,Всё"
+  - "DOMAIN,apis.rbxcdn.com,Игры"
+  - "DOMAIN,ecsv2.roblox.com,Игры"
+  - "DOMAIN,assetdelivery.roblox.com,Игры"
+  - "DOMAIN,tr.rbxcdn.com,Игры"
+  - "DOMAIN,sc1.rbxcdn.com,Игры"
+  - "DOMAIN,badges.roblox.com,Игры"
+  - "RULE-SET,rule1dst443,Всё"
+  - "RULE-SET,rule2,Geforce NOW"
+  - "AND,((DOMAIN-KEYWORD,rbx),(NETWORK,udp)),Игры"
+  - "AND,((NETWORK,udp),(IP-ASN,22697)),Игры"
+  - "AND,((DOMAIN-KEYWORD,roblox),(NETWORK,udp)),Игры"
+  - "AND,((NETWORK,udp),(IP-ASN,11281)),Игры"
+  - "DOMAIN-REGEX,funtime,Игры"
+  - "DOMAIN-KEYWORD,clashroyale,Остальное"
+  - "DOMAIN-KEYWORD,supercell,Остальное"
+  - "DOMAIN-KEYWORD,discord,Остальное"
+  - "AND,((DOMAIN-SUFFIX,nvidia),(NETWORK,udp)),Geforce NOW"
+  - "AND,((DOMAIN-KEYWORD,geforce),(NETWORK,udp)),Geforce NOW"
+  - "AND,((DOMAIN-KEYWORD,nvidia),(NETWORK,udp)),Geforce NOW"
+  - "IP-CIDR,77.11.250.0/24,Geforce NOW"
+  - "GEOIP,RU,Русские сервисы"
+  - "DOMAIN-SUFFIX,ru,Русские сервисы"
+  - "MATCH,Всё"
+  
