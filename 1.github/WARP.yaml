@@ -498,7 +498,7 @@ clash-for-android:
 rules:
   - "RULE-SET,discord,Остальное"
   - "PROCESS-NAME,com.google.android.apps.photos,Остальное"
-  - "DOMAIN-KEYWORD,parsec,Русские cервисы"
+  - "DOMAIN-KEYWORD,parsec,Русские сервисы"
   - "DOMAIN-KEYWORD,google,Всё"
   - "DOMAIN,kessel-ws-v2.parsec.app,Русские сервисы"
   - "PROCESS-PATH-REGEX,dnevnik,Русские сервисы"
