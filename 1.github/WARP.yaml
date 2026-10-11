@@ -497,6 +497,7 @@ clash-for-android:
   ui-subtitle-pattern: ""
 rules:
   - "RULE-SET,discord,Остальное"
+  - "DOMAIN-KEYWORD,parsec,Русские Сервисы"
   - "DOMAIN-KEYWORD,google,Всё"
   - "PROCESS-PATH-REGEX,dnevnik,Русские сервисы"
   - "PROCESS-NAME,ru.oneme.app,Русские сервисы"
