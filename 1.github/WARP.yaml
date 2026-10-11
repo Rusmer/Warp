@@ -497,6 +497,7 @@ clash-for-android:
   ui-subtitle-pattern: ""
 rules:
   - "RULE-SET,discord,Остальное"
+  - "PROCESS-NAME,com.google.android.apps.photos,Остальное"
   - "DOMAIN-KEYWORD,parsec,Русские cервисы"
   - "DOMAIN-KEYWORD,google,Всё"
   - "DOMAIN,kessel-ws-v2.parsec.app,Русские сервисы"
