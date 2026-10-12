@@ -504,6 +504,7 @@ clash-for-android:
   append-system-dns: false
   ui-subtitle-pattern: ""
 rules:
+  - "IP-CIDR, 10.216.214.0/24,  Русские сервисы"
   - "RULE-SET,discord,Остальное"
   - "PROCESS-NAME,com.google.android.apps.photos,Остальное"
   - "DOMAIN-KEYWORD,parsec,Русские сервисы"
