@@ -228,7 +228,6 @@ proxies:
   - name: 🇵🇱 PL
     server: tel.pl.tribukvy.ltd
     port: 443
-    network: h2
     type: masque
     sni: 4pda.to
     private-key: MHcCAQEEICCtevMoM2XeRH9udjgb/rewCQgXZxP3YSczkCY8AUTKoAoGCCqGSM49AwEHoUQDQgAETVIeT31IC6IW2zd9HU7j5SSLpV1aDpzQbvSsSzg+isQuB51Pa/2SpPczVGGZWY+/o8lgN5vcJi79oW2z970TYg==
