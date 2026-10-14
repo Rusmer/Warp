@@ -225,19 +225,19 @@ proxies:
     server: "10.0.35.52"
     tls: false
     type: "http"
-- name: 🇵🇱 PL
-  server: tel.pl.tribukvy.ltd
-  port: 443
-  network: h2
-  type: masque
-  sni: 4pda.to
-  private-key: MHcCAQEEICCtevMoM2XeRH9udjgb/rewCQgXZxP3YSczkCY8AUTKoAoGCCqGSM49AwEHoUQDQgAETVIeT31IC6IW2zd9HU7j5SSLpV1aDpzQbvSsSzg+isQuB51Pa/2SpPczVGGZWY+/o8lgN5vcJi79oW2z970TYg==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:8f89:ad4e:7c7a:9974:144e
-  udp: true
-  remote-dns-resolve: true
-  dns: [1.1.1.1, 1.0.0.1, 2606:4700:4700::1111, 2606:4700:4700::1001]
+  - name: 🇵🇱 PL
+    server: tel.pl.tribukvy.ltd
+    port: 443
+    network: h2
+    type: masque
+    sni: 4pda.to
+    private-key: MHcCAQEEICCtevMoM2XeRH9udjgb/rewCQgXZxP3YSczkCY8AUTKoAoGCCqGSM49AwEHoUQDQgAETVIeT31IC6IW2zd9HU7j5SSLpV1aDpzQbvSsSzg+isQuB51Pa/2SpPczVGGZWY+/o8lgN5vcJi79oW2z970TYg==
+    public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+    ip: 172.16.0.2
+    ipv6: 2606:4700:110:8f89:ad4e:7c7a:9974:144e
+    udp: true
+    remote-dns-resolve: true
+    dns: [1.1.1.1, 1.0.0.1, 2606:4700:4700::1111, 2606:4700:4700::1001]
   
   - name: "🏠 Дом"
     type: "direct"
