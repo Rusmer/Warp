@@ -344,6 +344,13 @@ proxy-groups:
       - "🇺🇸 Cloudflare WARP"
       - "🔓 Без впн"
     icon: "https://raw.githubusercontent.com/codelabhq/icons/main/meta-icon.svg"
+  - name: "Proton Выбор"
+    type: "select"
+    proxies:
+      - "🇳🇱 Белые списки ⠀"
+      - "🇺🇸 Cloudflare WARP"
+      - "🇷🇺 RU"
+      - "🔓 Без впн"
   - name: "🔓 Без впн"
     type: "select"
     proxies:
@@ -368,13 +375,7 @@ proxy-groups:
     proxies:
       - "Белые списки"
     hidden: true
-  - name: "Proton Выбор"
-    type: "select"
-    proxies:
-      - "🇳🇱 Белые списки ⠀"
-      - "🇺🇸 Cloudflare WARP"
-      - "DIRECT"
-      - "🇷🇺 RU"
+
     include-all-providers: false
     hidden: true
 sub-rules: null
