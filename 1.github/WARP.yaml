@@ -351,6 +351,7 @@ proxy-groups:
       - "🇺🇸 Cloudflare WARP"
       - "🇷🇺 RU"
       - "🔓 Без впн"
+    hidden: true
   - name: "🔓 Без впн"
     type: "select"
     proxies:
