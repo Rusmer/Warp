@@ -314,7 +314,7 @@ proxy-groups:
     proxies:
       - "🇨🇭 Proton ⠀"
       - "🇳🇱 Белые списки ⠀"
-      - "🇺🇸 Cloudflare WARP"
+      - "🇺🇸 Cloudflare WARP ⠀"
       - "🔓 Без впн"
     lazy: true
     disable-udp: false
@@ -358,6 +358,10 @@ proxy-groups:
     type: "select"
     proxies:
       - "Cloudflare WARP"
+  - name: "🇺🇸 Cloudflare WARP ⠀"
+    type: "select"
+    proxies:
+      - "🇷🇺 RU"
     hidden: true
   - name: "🇳🇱 Белые списки ⠀"
     type: "select"
