@@ -87,20 +87,32 @@ proxy-providers:
     type: "http"
     url: "https://da.rusmersr.workers.dev/all.yaml"
 rule-providers:
+  torrent:
+    behavior: "classical"
+    interval: 86400
+    path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092092/rules/98c2cffb7787f8f6e41fba64cd365adb"
+    type: "http"
+    url: "https://raw.githubusercontent.com/codelabhq/clash-warp-config/refs/heads/main/ruleset/torrent.yaml"
+  ru-apps:
+    behavior: "classical"
+    interval: 86400
+    path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092094/rules/98c2cffb7787f8f6e41fba64cd365adb"
+    type: "http"
+    url: "https://raw.githubusercontent.com/codelabhq/clash-warp-config/refs/heads/main/ruleset/ru-apps.yaml"
   discord:
     behavior: "classical"
     interval: 86400
     path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/rules/98c2cffb7787f8f6e41fba64cd365adb"
     type: "http"
     url: "https://raw.githubusercontent.com/codelabhq/clash-warp-config/refs/heads/main/ruleset/discord.yaml"
-  rule1dst443:
+  geforcenow:
     behavior: "classical"
     format: "yaml"
     interval: 86400
     path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/rules/27faf03cbf550b69efb0148801527bc5"
     type: "http"
     url: "https://raw.githubusercontent.com/Rusmer/Warp/refs/heads/main/rule.yaml"
-  rule2:
+  geforcenow-cidr:
     behavior: "classical"
     format: "yaml"
     interval: 86400
@@ -514,8 +526,10 @@ rules:
   - "DOMAIN,tr.rbxcdn.com,Игры"
   - "DOMAIN,sc1.rbxcdn.com,Игры"
   - "DOMAIN,badges.roblox.com,Игры"
-  - "RULE-SET,rule1dst443,Всё"
-  - "RULE-SET,rule2,Geforce NOW"
+  - "RULE-SET,torrent,Русские сервисы"
+  - "RULE-SET,ru-apps,Русские сервисы"
+  - "RULE-SET,geforcenow,Всё"
+  - "RULE-SET,geforcenow-cidr,Geforce NOW"
   - "AND,((DOMAIN-KEYWORD,rbx),(NETWORK,udp)),Игры"
   - "AND,((NETWORK,udp),(IP-ASN,22697)),Игры"
   - "AND,((DOMAIN-KEYWORD,roblox),(NETWORK,udp)),Игры"
