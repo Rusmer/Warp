@@ -365,6 +365,7 @@ proxy-groups:
     type: "select"
     proxies:
       - "Cloudflare WARP"
+    hidden: true
   - name: "🇺🇸 Cloudflare WARP ⠀"
     type: "select"
     proxies:
@@ -374,9 +375,6 @@ proxy-groups:
     type: "select"
     proxies:
       - "Белые списки"
-    hidden: true
-
-    include-all-providers: false
     hidden: true
 sub-rules: null
 listeners: null
