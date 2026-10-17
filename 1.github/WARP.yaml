@@ -261,7 +261,7 @@ proxy-groups:
       - "🇨🇭 Proton ⠀"
       - "🇳🇱 Белые списки ⠀"
       - "🇺🇸 Cloudflare WARP"
-      - "🏫 Школа"
+      - "🔓 Без впн" 
     lazy: true
     hidden: true
   - name: "Выбор"
@@ -359,9 +359,9 @@ proxy-groups:
   - name: "Proton Выбор"
     type: "select"
     proxies:
-      - "🇳🇱 Белые списки ⠀"
-      - "🇺🇸 Cloudflare WARP"
+      - "🇩🇪 DE"
       - "🇷🇺 RU"
+      - "🇳🇱 Белые списки ⠀"
       - "🔓 Без впн"
     hidden: true
   - name: "🔓 Без впн"
