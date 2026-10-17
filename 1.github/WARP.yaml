@@ -229,7 +229,7 @@ proxies:
     private-key: "0C/henSVEOs4tWqG10c0piacyeMe0W80c3++vbfE8HI="
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     remote-dns-resolve: true
-    server: "188.114.97.153:"
+    server: "188.114.97.153"
     type: "wireguard"
     udp: true
   - name: "🏫 Школа"
