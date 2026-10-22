@@ -346,14 +346,14 @@ proxy-groups:
     proxies:
       - "🇨🇭 Proton ⠀"
       - "🇳🇱 Белые списки ⠀"
-      - "🇺🇸 Cloudflare WARP"
+      - "🇺🇸 Cloudflare WARP ⠀ ⠀"
       - "🔓 Без впн"
   - name: "Остальное"
     type: "select"
     proxies:
       - "🇨🇭 Proton ⠀"
       - "🇳🇱 Белые списки ⠀"
-      - "🇺🇸 Cloudflare WARP ⠀ ⠀"
+      - "🇺🇸 Cloudflare WARP"
       - "🔓 Без впн"
     icon: "https://raw.githubusercontent.com/codelabhq/icons/main/meta-icon.svg"
   - name: "Proton Выбор"
@@ -389,7 +389,7 @@ proxy-groups:
   - name: "🇺🇸 Cloudflare WARP ⠀ ⠀"
     type: "select"
     proxies:
-      - "🇩🇪 DE"
+      - "🇨🇭 Proton ⠀"
     hidden: true
   - name: "🇳🇱 Белые списки ⠀"
     type: "select"
