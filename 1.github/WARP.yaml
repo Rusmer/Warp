@@ -389,7 +389,7 @@ proxy-groups:
   - name: "🇺🇸 Cloudflare WARP ⠀ ⠀"
     type: "select"
     proxies:
-      - "🇨🇭 Proton ⠀"
+      - "🇨🇭 Proton"
     hidden: true
   - name: "🇳🇱 Белые списки ⠀"
     type: "select"
