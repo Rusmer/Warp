@@ -553,5 +553,6 @@ rules:
   - "IP-CIDR,77.11.250.0/24,Geforce NOW"
   - "GEOIP,RU,Русские сервисы"
   - "DOMAIN-SUFFIX,ru,Русские сервисы"
+  - "NETWORK,udp,Cloudflare WARP"
   - "MATCH,Всё"
   
