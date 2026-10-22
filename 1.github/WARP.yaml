@@ -513,9 +513,13 @@ clash-for-android:
   append-system-dns: false
   ui-subtitle-pattern: ""
 rules:
+  - "AND,((NETWORK,tcp),(DST-PORT,443),(95.216.88.232/32,no-resolve)),Всё"
+  - "AND,((NETWORK,tcp),(DST-PORT,443),(DOMAIN,eclipse.joinserver.ru)),Всё"
   - "IP-CIDR,10.216.214.0/24,DIRECT,no-resolve"
+  - "IP-CIDR,95.216.88.232/32,Игры"
   - "AND,((IP-CIDR,95.216.88.232/32),(NETWORK,udp)),Игры"
   - "AND,((DOMAIN,eclipse.joinserver.ru),(NETWORK,udp)),Игры"
+  - "DOMAIN,eclipse.joinserver.ru,Игры"
   - "DOMAIN-KEYWORD,zerotier,Русские сервисы"
   - "RULE-SET,discord,Остальное"
   - "PROCESS-NAME,com.google.android.apps.photos,Остальное"
