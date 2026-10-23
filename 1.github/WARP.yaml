@@ -513,7 +513,7 @@ clash-for-android:
   append-system-dns: false
   ui-subtitle-pattern: ""
 rules:
-  - "AND,((NETWORK,tcp),(DST-PORT,443),(95.216.88.232/32,no-resolve)),Всё"
+  - "AND,((NETWORK,tcp),(DST-PORT,443),(IP-CIDR,95.216.88.232/32,no-resolve)),Всё"
   - "AND,((NETWORK,tcp),(DST-PORT,443),(DOMAIN,eclipse.joinserver.ru)),Всё"
   - "AND,((IP-CIDR,95.216.88.232/32),(NETWORK,udp)),Игры"
   - "AND,((DOMAIN,eclipse.joinserver.ru),(NETWORK,udp)),Игры"
