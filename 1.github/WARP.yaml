@@ -208,7 +208,6 @@ proxies:
       jmin: 10
       s1: 0
       s2: 0
-    dialer-proxy: "ASD"
     ip: "172.16.0.2"
     name: "AWG"
     port: 2408
