@@ -337,7 +337,7 @@ proxy-groups:
     type: "select"
     proxies:
       - "🇵🇱 PL"
-      - "🇷🇺 RU"
+     # - "🇷🇺 RU"
       - "🇸🇪 SE"
       - "🇩🇪 DE"
       - "🇮🇩 Jantit"
