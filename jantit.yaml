@@ -80,4 +80,31 @@ proxies:
       h3: 3
       h4: 4
       i1: '<b 0xce00000001018d0000405491dbdfbac013251e406fde5afa8a41d5b91e0b2b78567bbf24bdd0f97bc2d6><r 53>'
+  - name: "VPNJantit-AWG-EE1"
+    type: wireguard
+    server: ee1.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.138/32
+    private-key: "YF4DfR1jEksfd/JYiqrLixder3wJP6T1tbXHrvrvuV8="
+    public-key: "FeveuhtZzyHHrza13sIMnsywtRYXZpMDTCnQ1NXbsA8="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 1.0.0.1
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xcc00000001016400004055e3b29f773e9690cd35ac10079c2f76f6727a7d7ff02b33fde77daa490fd07e18><r 53>'
 
