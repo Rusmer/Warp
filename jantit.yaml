@@ -116,6 +116,10 @@ proxies:
     private-key: kIH5ps/Zgsb/mGvDQCEgYp10BKb3b6fAkUYKma/E13I=
     udp: true
     mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 1.0.0.1
     amnezia-wg-option:
       jc: 4
       jmin: 35
