@@ -286,12 +286,12 @@ proxy-groups:
     icon: "https://raw.githubusercontent.com/codelabhq/icons/main/global-icon.svg"
   - name: "🇮🇩 Jantit"
     type: "select"
-    #proxies:
-     # - "🔓 Без ВПН"
+    proxies:
+      - "🔓 Без ВПН"
     use:
       - "jantit"
-    #include-all-providers: false
-    #icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgB0iOquhPXIPqphg9N3DqCUNqzEw6dlBYrXx1aNLWXQ&s=10"
+    include-all-providers: false
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgB0iOquhPXIPqphg9N3DqCUNqzEw6dlBYrXx1aNLWXQ&s=10"
   - name: "Белые списки"
     type: "select"
     proxies:
@@ -302,16 +302,6 @@ proxy-groups:
     include-all-providers: false
     icon: "https://raw.githubusercontent.com/codelabhq/icons/main/proxy-icon.svg"
   - name: "Proton"
-    type: "select"
-    use:
-      - "proton"
-    url: "http://protonvpn.com"
-    interval: 0
-    timeout: 100000
-    max-failed-times: 1
-    lazy: false
-    icon: "https://res.cloudinary.com/dbulfrlrz/image/upload/v1703162849/static/logos/icons/vpn_f9embt.svg"
-    - name: "Proton"
     type: "select"
     use:
       - "proton"
