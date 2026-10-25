@@ -397,6 +397,7 @@ proxy-groups:
       - "🇳🇱 Белые списки ⠀"
       - "🇺🇸 Cloudflare WARP"
       - "🔓 Без впн"
+      - "🇮🇩 Jantit"
     icon: "https://raw.githubusercontent.com/codelabhq/icons/main/meta-icon.svg"
   - name: "Proton Выбор"
     type: "select"
