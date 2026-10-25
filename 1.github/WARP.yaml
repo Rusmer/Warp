@@ -311,9 +311,7 @@ proxy-groups:
   - name: "🇮🇩 Jantit"
     type: "select"
     proxies:
-      - "🔓 Без ВПН"
-    use:
-      - "jantit"
+      - "Jantit"
     include-all-providers: false
     icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgB0iOquhPXIPqphg9N3DqCUNqzEw6dlBYrXx1aNLWXQ&s=10"
   - name: "Белые списки"
