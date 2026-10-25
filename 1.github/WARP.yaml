@@ -80,6 +80,18 @@ proxy-providers:
     path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/proxies/0f6ead0d707953b9824286625cb343e3"
     type: "http"
     url: "https://raw.githubusercontent.com/Rusmer/Warp/refs/heads/main/jantit.yaml"
+    override:
+     amnezia-wg-option:
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: "<r 2><b 0x858000010001000000000669636c6f756403636f6d0000010001c00c000100010000105a00044d583737>"
+      jc: 6
+      jmax: 50
+      jmin: 10
+      s1: 0
+      s2: 0
   white:
     health-check:
       enable: true
