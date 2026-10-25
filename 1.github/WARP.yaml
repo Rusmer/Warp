@@ -308,7 +308,7 @@ proxy-groups:
     url: "http://protonvpn.com"
     interval: 0
     timeout: 100000
-    max-failed-times: 1
+ #   max-failed-times: 1
     lazy: false
     icon: "https://res.cloudinary.com/dbulfrlrz/image/upload/v1703162849/static/logos/icons/vpn_f9embt.svg"
   - name: "Cloudflare WARP"
