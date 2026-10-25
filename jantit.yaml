@@ -1,14 +1,28 @@
 proxies:
-  - name: "KZ-1"
-    type: vless
+  - name: "VPNJantit-AWG"
+    type: wireguard
     server: kz1.vpnjantit.com
-    port: 8443
-    uuid: 813a6ad0-d08b-11f1-8d89-cff7e8eae9c4
-    network: tcp
-    tls: true
-    servername: ya.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: omKx-z1NFMoJfAj4Ba0oDNH5-mPDFHVqXN6pnLEmuQc
-      short-id: c0557d4d35117771
-    flow: xtls-rprx-vision
+    port: 1024
+    ip: 192.168.6.163/32
+    private-key: "yJY0JX/Utgu/ni0hjz0TYvfa9J3Xg8jgw+3vapm1gUs="
+    public-key: "+iyH7cjPeUcIZ7SXZI1HeVm6ByqrsJhHc5hB81SQek8="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 1.0.0.1
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xc500000001012100004052cbe75d8527eba7140e1287aa9e274f17c84b1509202605240059dd8c9e><r 53>'
