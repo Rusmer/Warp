@@ -337,10 +337,10 @@ proxy-groups:
     type: "select"
     proxies:
       - "🇵🇱 PL"
-     # - "🇷🇺 RU"
+      - "🇷🇺 RU"
       - "🇸🇪 SE"
       - "🇩🇪 DE"
-      - "🇮🇩 Jantit"
+      - "🇮🇩 Jantit ⠀"
       - "🇳🇱 Белые списки"
       - "🇨🇭 Proton"
     url: "http://protonvpn.com"
