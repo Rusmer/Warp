@@ -26,3 +26,31 @@ proxies:
       h3: 3
       h4: 4
       i1: '<b 0xc500000001012100004052cbe75d8527eba7140e1287aa9e274f17c84b1509202605240059dd8c9e><r 53>'
+  - name: "VPNJantit-AWG-FI2"
+    type: wireguard
+    server: fi2.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.204/32
+    private-key: "4EM0G0uH8c5YeNC51NTtdZqh31PmPU/+NIEzihbHhHo="
+    public-key: "rhCdRqMu8xO/Wyb8OeGltY+wqAvbAWh9hUkmy7nQzQs="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 1.0.0.1
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xcf0000000101e70000405baad2c312f4e110b6a39126eafe0701f28a5fa4b84aceee00086ede15351627ea80f599ca6913><r 53>'
+
