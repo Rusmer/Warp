@@ -75,6 +75,11 @@ proxy-providers:
     path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/proxies/0f6ead0d707953b9824286625cb343e2"
     type: "http"
     url: "https://raw.githubusercontent.com/Rusmer/Warp/refs/heads/main/g2sort.yaml"
+  jantit:
+    interval: 86400
+    path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/proxies/0f6ead0d707953b9824286625cb343e3"
+    type: "http"
+    url: "https://raw.githubusercontent.com/Rusmer/Warp/refs/heads/main/jantit.yaml"
   white:
     health-check:
       enable: true
@@ -275,9 +280,19 @@ proxy-groups:
       - "🇺🇸 Cloudflare WARP"
       - "🇳🇱 Белые списки ⠀"
       - "🇨🇭 Proton ⠀"
+      - "🇮🇩 Jantit"
       - "🔓 Без впн"
     lazy: true
     icon: "https://raw.githubusercontent.com/codelabhq/icons/main/global-icon.svg"
+  - name: "🇮🇩 Jantit"
+    type: "select"
+    proxies:
+      - "🔓 Без ВПН"
+    use:
+      - "jantit"
+    lazy: false
+    include-all-providers: false
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgB0iOquhPXIPqphg9N3DqCUNqzEw6dlBYrXx1aNLWXQ&s=10"
   - name: "Белые списки"
     type: "select"
     proxies:
@@ -288,6 +303,16 @@ proxy-groups:
     include-all-providers: false
     icon: "https://raw.githubusercontent.com/codelabhq/icons/main/proxy-icon.svg"
   - name: "Proton"
+    type: "select"
+    use:
+      - "proton"
+    url: "http://protonvpn.com"
+    interval: 0
+    timeout: 100000
+    max-failed-times: 1
+    lazy: false
+    icon: "https://res.cloudinary.com/dbulfrlrz/image/upload/v1703162849/static/logos/icons/vpn_f9embt.svg"
+    - name: "Proton"
     type: "select"
     use:
       - "proton"
@@ -317,6 +342,7 @@ proxy-groups:
       - "🇨🇭 Proton ⠀"
       - "🇳🇱 Белые списки ⠀"
       - "🇺🇸 Cloudflare WARP"
+      - "🇮🇩 Jantit"
       - "🔓 Без впн"
     lazy: true
     icon: "https://raw.githubusercontent.com/codelabhq/icons/main/steampowered-icon.svg"
@@ -326,6 +352,7 @@ proxy-groups:
       - "🇨🇭 Proton ⠀"
       - "🇳🇱 Белые списки ⠀"
       - "🇺🇸 Cloudflare WARP ⠀"
+      - "🇮🇩 Jantit"
       - "🔓 Без впн"
     lazy: true
     disable-udp: false
@@ -336,6 +363,7 @@ proxy-groups:
       - "🇨🇭 Proton ⠀"
       - "🇳🇱 Белые списки ⠀"
       - "🇺🇸 Cloudflare WARP"
+      - "🇮🇩 Jantit"
       - "🔓 Без впн"
     lazy: true
     icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWvkhCAE-ZGGPFsqh-tno88LSPhNoh-AjAqQ&s"
@@ -346,6 +374,7 @@ proxy-groups:
       - "🇨🇭 Proton ⠀"
       - "🇳🇱 Белые списки ⠀"
       - "🇺🇸 Cloudflare WARP ⠀ ⠀"
+      - "🇮🇩 Jantit"
       - "🔓 Без впн"
   - name: "Остальное"
     type: "select"
