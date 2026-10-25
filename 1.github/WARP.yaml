@@ -337,6 +337,12 @@ proxy-groups:
     type: "select"
     proxies:
       - "🇵🇱 PL"
+      - "🇷🇺 RU"
+      - "🇸🇪 SE"
+      - "🇩🇪 DE"
+      - "🇮🇩 Jantit ⠀"
+      - "🇳🇱 Белые списки"
+      - "🇨🇭 Proton"
     url: "http://protonvpn.com"
     max-failed-times: 99
     lazy: true
@@ -424,8 +430,8 @@ proxy-groups:
     type: "select"
     proxies:
       - "🇨🇭 Proton"
-      - "🇮🇩 Jantit" ⠀
-      - "🇨🇭 Proton" ⠀
+      - "🇮🇩 Jantit ⠀"
+      - "🇨🇭 Proton"
     hidden: true
   - name: "🇳🇱 Белые списки ⠀"
     type: "select"
