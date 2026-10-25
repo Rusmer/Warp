@@ -91,7 +91,7 @@ proxies:
       - "0.0.0.0/0"
       - "::/0"
     udp: true
-    mtu: 1380
+    mtu: 1420
     remote-dns-resolve: true
     dns:
       - 1.1.1.1
