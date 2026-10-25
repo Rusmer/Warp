@@ -200,6 +200,21 @@ proxies:
     sni: "consumer-masque.cloudflareclient.com"
     type: "masque"
     udp: true
+  - dialer-proxy: "Jantit"
+    dns:
+      - "1.1.1.1"
+      - "1.0.0.1"
+    ip: "172.16.0.2"
+    name: "🇮🇩 Jantit ⠀"
+    network: "h2"
+    port: 4443
+    private-key: "MHcCAQEEIG2OBNpz0oP9/4etnM6roNhI2M/s+1sdDIyBtL9Kd6jnoAoGCCqGSM49AwEHoUQDQgAEHT2vJsX7GRhRlDD4kpa4NPBTtL4OdkomNaUDDyFQRdccohiIclchf3VLEpMOQ9rb2Y7jtqkWslbgU5+jlPVz1w=="
+    public-key: "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w=="
+    remote-dns-resolve: true
+    server: "162.159.198.7"
+    sni: "consumer-masque.cloudflareclient.com"
+    type: "masque"
+    udp: true
   - allowed-ips:
       - "0.0.0.0/0"
     amnezia-wg-option:
@@ -265,6 +280,7 @@ proxy-groups:
       - "🇨🇭 Proton ⠀"
       - "🇳🇱 Белые списки ⠀"
       - "🇺🇸 Cloudflare WARP"
+      - "🇮🇩 Jantit"
       - "🔓 Без впн" 
     lazy: true
     hidden: true
@@ -284,6 +300,14 @@ proxy-groups:
       - "🔓 Без впн"
     lazy: true
     icon: "https://raw.githubusercontent.com/codelabhq/icons/main/global-icon.svg"
+  - name: "Jantit"
+    type: "select"
+    proxies:
+      - "🔓 Без ВПН"
+    use:
+      - "jantit"
+    include-all-providers: false
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgB0iOquhPXIPqphg9N3DqCUNqzEw6dlBYrXx1aNLWXQ&s=10"
   - name: "🇮🇩 Jantit"
     type: "select"
     proxies:
@@ -318,6 +342,7 @@ proxy-groups:
       - "🇷🇺 RU"
       - "🇸🇪 SE"
       - "🇩🇪 DE"
+      - "🇮🇩 Jantit" ⠀
       - "🇳🇱 Белые списки"
       - "🇨🇭 Proton"
     url: "http://protonvpn.com"
@@ -407,6 +432,8 @@ proxy-groups:
     type: "select"
     proxies:
       - "🇨🇭 Proton"
+      - "🇮🇩 Jantit" ⠀
+      - "🇨🇭 Proton" ⠀
     hidden: true
   - name: "🇳🇱 Белые списки ⠀"
     type: "select"
