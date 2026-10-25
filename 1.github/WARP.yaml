@@ -313,6 +313,7 @@ proxy-groups:
     proxies:
       - "Jantit"
     include-all-providers: false
+    hidden: true
     icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgB0iOquhPXIPqphg9N3DqCUNqzEw6dlBYrXx1aNLWXQ&s=10"
   - name: "Белые списки"
     type: "select"
