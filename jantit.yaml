@@ -107,7 +107,7 @@ proxies:
       h3: 3
       h4: 4
       i1: '<b 0xcc00000001016400004055e3b29f773e9690cd35ac10079c2f76f6727a7d7ff02b33fde77daa490fd07e18><r 53>'
-  - name: "CZ-2"
+  - name: "DE-1"
     type: wireguard
     server: cz2.vpnjantit.com
     port: 1024
@@ -131,4 +131,27 @@ proxies:
       h3: 3
       h4: 4
       i1: "<b 0xc700000001018b00004055eb12c1dc879205f86ca158c5e0082b5c9eda92e067a871c1d047a60fbb152358><r 53>"
-
+  - name: "CZ-1"
+    type: wireguard
+    server: cz3.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.91
+    public-key: cDDEM+QcWIxHhrGDJm8baUaQUne+7LCtOEVA3XpZpW4=
+    private-key: uCU7fP9tTK75Tx6rWA5xZXhugEoRG1HVelX1CZlknGE=
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 1.0.0.1
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: "<b 0xcd00000001016e00004053e05b9098db0757665c403ec8abbb0f6cd2fc25b897b8ab33088ddd106529><r 53>"
