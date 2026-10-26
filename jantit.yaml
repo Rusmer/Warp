@@ -155,3 +155,30 @@ proxies:
       h3: 3
       h4: 4
       i1: "<b 0xcd00000001016e00004053e05b9098db0757665c403ec8abbb0f6cd2fc25b897b8ab33088ddd106529><r 53>"
+  - name: "🇸🇪 SE-2"
+    type: wireguard
+    server: se2.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.36/32
+    private-key: "0HsNdH7/E7AHh6+TZN/QnUP73at4Jd/6rFb5bmIf42A="
+    public-key: "WHDJ0JEVhQAzzzyEYZ7igs1MW2ypjwJ7YmjbEdjutiY="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 1.0.0.1
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xce0000000101010000405256df1fcaf3b4e90fa9de3435fad17782cf84eff927beaa12b44ba0196a><r 53>'
