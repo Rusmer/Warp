@@ -345,3 +345,30 @@ proxies:
       h3: 3
       h4: 4
       i1: '<b 0xca00000001011900004055651245bb223329bbae6ac36018033151382b3eba9e195c9acbb4a01aeaad2e73><r 53>'
+  - name: "🇺🇸 US-1"
+    type: wireguard
+    server: usa6.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.85/32
+    private-key: "UIouUphvMu8BMMFsOLHz90p4ipE+0ioNykUEb6Uv8Ws="
+    public-key: "c3FKBnHbWdUiKTysPZglk5WeBCbRlbTvdN1JBuSP3W8="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xca00000001011900004055651245bb223329bbae6ac36018033151382b3eba9e195c9acbb4a01aeaad2e73><r 53>'
