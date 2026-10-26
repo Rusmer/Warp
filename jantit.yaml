@@ -209,3 +209,30 @@ proxies:
       h3: 3
       h4: 4
       i1: '<b 0xcb00000001013500004052559a1574767b1c519e02a3c472f68a2b6ea6f31e940b035dd870d9e312><r 53>'
+  - name: "🇵🇱 PL-2"
+    type: wireguard
+    server: pl2.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.92/32
+    private-key: "IJkRmZuw71lrf1Re2M+XVCFK0ThP5gFL7HxdcUXNiUk="
+    public-key: "/tuTh697w8tQsId0ET63byKyi3jdIlHNpFkGVmeXuw4="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 1.0.0.1
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xca00000001011900004055651245bb223329bbae6ac36018033151382b3eba9e195c9acbb4a01aeaad2e73><r 53>'
