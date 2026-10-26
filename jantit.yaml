@@ -26,6 +26,33 @@ proxies:
       h3: 3
       h4: 4
       i1: '<b 0xc500000001012100004052cbe75d8527eba7140e1287aa9e274f17c84b1509202605240059dd8c9e><r 53>'
+  - name: "🇫🇮 FI-1"
+    type: wireguard
+    server: fi1.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.75/32
+    private-key: "0FtG9XMR5crwnl1ZvjY/eISsmOSyZiIxGm3q3NHUiGs="
+    public-key: "sF1tjG806mVtK8/56oE5lo66ewXiIIMSiLLC9Kg7D3w="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    amnezia-wg-option:
+      jc: 4
+      jmin: 36
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xcf0000000101e70000405baad2c312f4e110b6a39126eafe0701f28a5fa4b84aceee00086ede15351627ea80f599ca6913><r 53>'
   - name: "🇫🇮 FI-2"
     type: wireguard
     server: fi2.vpnjantit.com
@@ -80,7 +107,7 @@ proxies:
       h3: 3
       h4: 4
       i1: '<b 0xce00000001018d0000405491dbdfbac013251e406fde5afa8a41d5b91e0b2b78567bbf24bdd0f97bc2d6><r 53>'
-  - name: "🇪🇪 EE-1"
+  - name: "🇪🇪 EE-1 [Optimized]"
     type: wireguard
     server: ee1.vpnjantit.com
     port: 1024
@@ -91,11 +118,42 @@ proxies:
       - "0.0.0.0/0"
       - "::/0"
     udp: true
-    mtu: 1420
+    mtu: 1500
     remote-dns-resolve: true
     dns:
       - 1.1.1.1
-      - 1.0.0.1
+      - 8.8.8.8
+    # Добавляем для стабильного соединения и предотвращения разрывов на высокой скорости
+    persistent-keepalive: 25 
+    amnezia-wg-option:
+      # Убираем или минимизируем мусорные пакеты (junk), создающие лишний overhead (накладные расходы)
+      jc: 0
+      jmin: 0
+      jmax: 0
+      # Магические байты оставляем для обхода блокировок, если они нужны вашему провайдеру
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xcc00000001016400004055e3b29f773e9690cd35ac10079c2f76f6727a7d7ff02b33fde77daa490fd07e18><r 53>'
+  - name: "🇪🇪 EE-2"
+    type: wireguard
+    server: ee2.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.210/32
+    private-key: "MG6BOB//LKQp3HfeuCoVIzYqPCeSXCmLUUNEtuO6AFI="
+    public-key: "LGV/MEIgFIz7vGcub5kN70N1+tMoIWhPINuKwVRiti0="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
     amnezia-wg-option:
       jc: 4
       jmin: 35
@@ -106,7 +164,7 @@ proxies:
       h2: 2
       h3: 3
       h4: 4
-      i1: '<b 0xcc00000001016400004055e3b29f773e9690cd35ac10079c2f76f6727a7d7ff02b33fde77daa490fd07e18><r 53>'
+      i1: '<b 0xcf0000000101e70000405baad2c312f4e110b6a39126eafe0701f28a5fa4b84aceee00086ede15351627ea80f599ca6913><r 53>'
   - name: "🇩🇪 DE-1"
     type: wireguard
     server: cz2.vpnjantit.com
@@ -291,10 +349,10 @@ proxies:
       h3: 3
       h4: 4
       i1: '<b 0xcf0000000101e70000405baad2c312f4e110b6a39126eafe0701f28a5fa4b84aceee00086ede15351627ea80f599ca6913><r 53>'
-- name: "🇱🇻 LV-1"
+  - name: "🇱🇻 LV-1" #дапстеп
     type: wireguard
     server: lv1.vpnjantit.com
-    port: 1024
+    port: 1024 
     ip: 192.168.6.30/32
     private-key: "EAnWx52OGdzurYuoCPdlA3auVBYh/5qDw6ZnFKcQvno="
     public-key: "OxuczEDPtabvj+hACzXuUpvRIs0IVWyrHzT4j0qcHj8="
@@ -307,6 +365,114 @@ proxies:
     dns:
       - 1.1.1.1
       - 1.0.0.1
+    amnezia-wg-option:
+      jc: 4
+      jmin: 36
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xcf0000000101e70000405baad2c312f4e110b6a39126eafe0701f28a5fa4b84aceee00086ede15351627ea80f599ca6913><r 53>'
+  - name: "🇦🇲 AM-1"
+    type: wireguard
+    server: am2.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.202/32
+    private-key: "6AJ32Hl3hfqCkCFNTGzAwW9lzqDMl3NMlKMX4mS3NU4="
+    public-key: "ylYztmMhcZhPXvl1epCxPO9ZLngNupIo9eGbxImSMCg="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xca00000001011900004055651245bb223329bbae6ac36018033151382b3eba9e195c9acbb4a01aeaad2e73><r 53>'
+  - name: "🇺🇸 US-1"
+    type: wireguard
+    server: usa6.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.85/32
+    private-key: "UIouUphvMu8BMMFsOLHz90p4ipE+0ioNykUEb6Uv8Ws="
+    public-key: "c3FKBnHbWdUiKTysPZglk5WeBCbRlbTvdN1JBuSP3W8="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xca00000001011900004055651245bb223329bbae6ac36018033151382b3eba9e195c9acbb4a01aeaad2e73><r 53>'
+  - name: "🇲🇩 MD-1"
+    type: wireguard
+    server: md1.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.41/32
+    private-key: "yM0AHGcmHHqJe5XSq6Q+ogE5Z6sIDnzZSWs438aDmEQ="
+    public-key: "3ynxUwnrow7W66ijf+bsip4bvQxI9lfC0h/S5fJCrgs="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xcf0000000101e70000405baad2c312f4e110b6a39126eafe0701f28a5fa4b84aceee00086ede15351627ea80f599ca6913><r 53>'
+  - name: "🇱🇺 LU-1"
+    type: wireguard
+    server: lu1.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.105/32
+    private-key: "aNPuH3ckoIsS5OJ6MpnLgW8Hez4UPEfEM1oThQInKGo="
+    public-key: "Nluf3pAXD0V+sWsFSBdVorF73886ihe9Oaz9wAL74ik="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
     amnezia-wg-option:
       jc: 4
       jmin: 35
