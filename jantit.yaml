@@ -264,3 +264,30 @@ proxies:
       h4: 4
       i1: '<b 0xce00000001010c00004055d9168f39be387527987f72c767ac5797044dacf108bca9d8ca8df1b4a07e6f77><r 53>'
     
+  - name: "🇫🇷 FR-1"
+    type: wireguard
+    server: fr1.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.77/32
+    private-key: "WP9/c5z7Vj/8duC/pXR95kMsqgKYluaJrp/YUk6PTmg="
+    public-key: "6124WN5oWEsHPg3SkbEH/FjjdsadpPgvbf2vhgWm7Qc="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 1.0.0.1
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xc90000000101d7000040546e173bdebf7be63d0df4a0c4711629dc82173fcc2e9495ecb6e9567efe24d6><r 53>'
