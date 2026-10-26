@@ -236,3 +236,31 @@ proxies:
       h3: 3
       h4: 4
       i1: '<b 0xca00000001011900004055651245bb223329bbae6ac36018033151382b3eba9e195c9acbb4a01aeaad2e73><r 53>'
+  - name: "🇨🇭 CH-1"
+    type: wireguard
+    server: sz1.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.133/32
+    private-key: "SLd6fv4oVzVST9cbiznQV62rxY1WA5347IRG8JGB4l4="
+    public-key: "H+brbZg2amUGEWnY6DPP1k8+bjoq1Da/rTycHnbhIX4="
+    allowed-ips:
+    - "0.0.0.0/0"
+    - "::/0"
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+    - 1.1.1.1
+    - 1.0.0.1
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xce00000001010c00004055d9168f39be387527987f72c767ac5797044dacf108bca9d8ca8df1b4a07e6f77><r 53>'
+    
