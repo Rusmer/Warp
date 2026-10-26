@@ -372,3 +372,30 @@ proxies:
       h3: 3
       h4: 4
       i1: '<b 0xca00000001011900004055651245bb223329bbae6ac36018033151382b3eba9e195c9acbb4a01aeaad2e73><r 53>'
+  - name: "🇲🇩 MD-1"
+    type: wireguard
+    server: md1.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.41/32
+    private-key: "yM0AHGcmHHqJe5XSq6Q+ogE5Z6sIDnzZSWs438aDmEQ="
+    public-key: "3ynxUwnrow7W66ijf+bsip4bvQxI9lfC0h/S5fJCrgs="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    amnezia-wg-option:
+      jc: 4
+      jmin: 36
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xcf0000000101e70000405baad2c312f4e110b6a39126eafe0701f28a5fa4b84aceee00086ede15351627ea80f599ca6913><r 53>'
