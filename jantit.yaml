@@ -291,10 +291,10 @@ proxies:
       h3: 3
       h4: 4
       i1: '<b 0xcf0000000101e70000405baad2c312f4e110b6a39126eafe0701f28a5fa4b84aceee00086ede15351627ea80f599ca6913><r 53>'
-  - name: "🇱🇻 LV-1"
+  - name: "🇱🇻 LV-1" #дапстеп
     type: wireguard
     server: lv1.vpnjantit.com
-    port: 1024
+    port: 1024 
     ip: 192.168.6.30/32
     private-key: "EAnWx52OGdzurYuoCPdlA3auVBYh/5qDw6ZnFKcQvno="
     public-key: "OxuczEDPtabvj+hACzXuUpvRIs0IVWyrHzT4j0qcHj8="
