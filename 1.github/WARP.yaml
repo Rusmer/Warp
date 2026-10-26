@@ -565,6 +565,7 @@ rules:
   - "AND,((DOMAIN,eclipse.joinserver.ru),(NETWORK,udp)),Игры"
   - "DOMAIN,eclipse.joinserver.ru,Игры"
   - "DOMAIN-KEYWORD,zerotier,Русские сервисы"
+  - "DOMAIN-KEYWORD,gemini,Нейросети"
   - "RULE-SET,discord,Остальное"
   - "PROCESS-NAME,com.google.android.apps.photos,Остальное"
   - "DOMAIN-KEYWORD,parsec,Русские сервисы"
