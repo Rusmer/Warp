@@ -107,7 +107,7 @@ proxies:
       h3: 3
       h4: 4
       i1: '<b 0xcc00000001016400004055e3b29f773e9690cd35ac10079c2f76f6727a7d7ff02b33fde77daa490fd07e18><r 53>'
-  - name: "DE-1"
+  - name: "🇩🇪 DE-1"
     type: wireguard
     server: cz2.vpnjantit.com
     port: 1024
