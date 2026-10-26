@@ -107,7 +107,7 @@ proxies:
       h3: 3
       h4: 4
       i1: '<b 0xce00000001018d0000405491dbdfbac013251e406fde5afa8a41d5b91e0b2b78567bbf24bdd0f97bc2d6><r 53>'
-  - name: "🇪🇪 EE-1"
+  - name: "🇪🇪 EE-1 [Optimized]"
     type: wireguard
     server: ee1.vpnjantit.com
     port: 1024
@@ -118,15 +118,19 @@ proxies:
       - "0.0.0.0/0"
       - "::/0"
     udp: true
-    mtu: 1420
+    mtu: 1500
     remote-dns-resolve: true
     dns:
       - 1.1.1.1
-      - 1.0.0.1
+      - 8.8.8.8
+    # Добавляем для стабильного соединения и предотвращения разрывов на высокой скорости
+    persistent-keepalive: 25 
     amnezia-wg-option:
-      jc: 4
-      jmin: 35
-      jmax: 95
+      # Убираем или минимизируем мусорные пакеты (junk), создающие лишний overhead (накладные расходы)
+      jc: 0
+      jmin: 0
+      jmax: 0
+      # Магические байты оставляем для обхода блокировок, если они нужны вашему провайдеру
       s1: 0
       s2: 0
       h1: 1
