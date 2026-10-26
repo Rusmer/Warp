@@ -390,7 +390,7 @@ proxies:
       - 8.8.8.8
     amnezia-wg-option:
       jc: 4
-      jmin: 36
+      jmin: 35
       jmax: 95
       s1: 0
       s2: 0
@@ -417,7 +417,34 @@ proxies:
       - 8.8.8.8
     amnezia-wg-option:
       jc: 4
-      jmin: 36
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xcf0000000101e70000405baad2c312f4e110b6a39126eafe0701f28a5fa4b84aceee00086ede15351627ea80f599ca6913><r 53>'
+- name: "🇪🇪 EE-2"
+    type: wireguard
+    server: ee2.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.210/32
+    private-key: "MG6BOB//LKQp3HfeuCoVIzYqPCeSXCmLUUNEtuO6AFI="
+    public-key: "LGV/MEIgFIz7vGcub5kN70N1+tMoIWhPINuKwVRiti0="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    udp: true
+    mtu: 1380
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
       jmax: 95
       s1: 0
       s2: 0
