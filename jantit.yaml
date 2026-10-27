@@ -189,6 +189,32 @@ proxies:
       h3: 3
       h4: 4
       i1: "<b 0xc700000001018b00004055eb12c1dc879205f86ca158c5e0082b5c9eda92e067a871c1d047a60fbb152358><r 53>"
+  - name: "🇩🇪 DE-2"
+    type: wireguard
+    server: gr3.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.216
+    private-key: "ILtxLtyvyMKEwlqjoGd6iN40BICneV48LBtPSSDbV0g="
+    public-key: "aAKhIVsaj0YKwy1KUVSK7kfx/LvC8liuw/QHZfaqYno="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    udp: true
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    amnezia-wg-option:
+      jc: 4
+      jmin: 36
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: '<b 0xcf0000000101e70000405baad2c312f4e110b6a39126eafe0701f28a5fa4b84aceee00086ede15351627ea80f599ca6913><r 53>'
   - name: "🇨🇿 CZ-1"
     type: wireguard
     server: cz3.vpnjantit.com
