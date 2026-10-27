@@ -381,6 +381,17 @@ proxy-groups:
       - "🔓 Без впн"
     lazy: true
     icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWvkhCAE-ZGGPFsqh-tno88LSPhNoh-AjAqQ&s"
+  - name: "Geforce NOW Выбор"
+    type: "select"
+    proxies:
+      - "Всё"
+      - "🇨🇭 Proton ⠀"
+      - "🇳🇱 Белые списки ⠀"
+      - "🇺🇸 Cloudflare WARP"
+      - "🇮🇩 Jantit"
+      - "🔓 Без впн"
+    lazy: true
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWvkhCAE-ZGGPFsqh-tno88LSPhNoh-AjAqQ&s"
   - name: "Нейросети"
     type: "select"
     icon: "https://raw.githubusercontent.com/codelabhq/icons/main/openai-icon.svg"
@@ -586,7 +597,7 @@ rules:
   - "DOMAIN,badges.roblox.com,Игры"
   - "RULE-SET,torrent,Русские сервисы"
   - "RULE-SET,ru-apps,Русские сервисы"
-  - "RULE-SET,geforcenow,Всё"
+  - "RULE-SET,geforcenow,Geforce NOW Выбор"
   - "RULE-SET,geforcenow-cidr,Geforce NOW"
   - "AND,((DOMAIN-KEYWORD,rbx),(NETWORK,udp)),Игры"
   - "AND,((NETWORK,udp),(IP-ASN,22697)),Игры"
