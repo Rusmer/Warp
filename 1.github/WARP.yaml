@@ -83,9 +83,24 @@ proxy-providers:
     override:
       dialer-proxy: "Выбор"
       override-expr:
-         - '.["amnezia-wg-option"].jc = 0'
-         - '.["amnezia-wg-option"].jmin = 0'
-         - '.["amnezia-wg-option"].jmax = 0'
+        - '.["amnezia-wg-option"].version = 3'
+        - '.["amnezia-wg-option"].jc = 75'
+        - '.["amnezia-wg-option"].jmin = 118'
+        - '.["amnezia-wg-option"].jmax = 157'
+        - '.["amnezia-wg-option"].s1 = 0'
+        - '.["amnezia-wg-option"].s2 = 0'
+        - '.["amnezia-wg-option"].h1 = 1'
+        - '.["amnezia-wg-option"].h2 = 2'
+        - '.["amnezia-wg-option"].h3 = 3'
+        - '.["amnezia-wg-option"].h4 = 4'
+        - '.["amnezia-wg-option"].i1 = "<b 0xcb0000000101d6000040500195593d5d325e28e7a9d879ff474b9a1a344d76a202d92776ceaee0e7f8d933ded8bc2f49a31d19cfa2f42a8b6e056c76c4d64b4f09d870f342e0872e69f5486b4e35e32314107a3937b8d3cf14cfc8>"'
+        - '.["amnezia-wg-option"].content-padding-addition = "9-108"'
+        - '.["amnezia-wg-option"].rekey-after-time = "61-148"'
+        - '.["amnezia-wg-option"].rekey-timeout = "9-14"'
+        - '.["amnezia-wg-option"].reject-after-time = "85-183"'
+        - '.["amnezia-wg-option"].keepalive-timeout = "9-12"'
+        - '.["amnezia-wg-option"].max-handshake-attempts = "10-40"'
+        - '.["amnezia-wg-option"].disable-cookies = true'
   white:
     health-check:
       enable: true
