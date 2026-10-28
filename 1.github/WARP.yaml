@@ -80,7 +80,12 @@ proxy-providers:
     path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/proxies/0f6ead0d707953b9824286625cb343e3"
     type: "http"
     url: "https://raw.githubusercontent.com/Rusmer/Warp/refs/heads/main/jantit.yaml"
-
+    override:
+      dialer-proxy: "Выбор"
+      override-expr:
+         - '.["amnezia-wg-option"].jc = 0'
+         - '.["amnezia-wg-option"].jmin = 0'
+         - '.["amnezia-wg-option"].jmax = 0'
   white:
     health-check:
       enable: true
