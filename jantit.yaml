@@ -713,7 +713,7 @@ proxies:
       h2: 2
       h3: 3
       h4: 4
-      i1: '<b 0xcf0000000101e70000405baad2c312f4e110b6a39126eafe0701f28a5fa4b84aceee00086ede15351627ea80f599ca6913><r 53>'
+      i1: '<b 0xc4000000010163000040510f141808cbdac3d94e7c1845ace739264e7ad0d1167c05155550165c><r 53>'
   - name: "🇮🇹 IT-1"
     type: wireguard
     server: it1.vpnjantit.com
