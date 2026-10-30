@@ -329,13 +329,6 @@ proxy-groups:
       - "jantit"
     include-all-providers: false
     icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgB0iOquhPXIPqphg9N3DqCUNqzEw6dlBYrXx1aNLWXQ&s=10"
-  - name: "🇮🇩 Jantit"
-    type: "select"
-    proxies:
-      - "Jantit"
-    include-all-providers: false
-    hidden: true
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgB0iOquhPXIPqphg9N3DqCUNqzEw6dlBYrXx1aNLWXQ&s=10"
   - name: "Белые списки"
     type: "select"
     proxies:
@@ -472,6 +465,12 @@ proxy-groups:
     type: "select"
     proxies:
       - "Белые списки"
+    hidden: true
+  - name: "🇮🇩 Jantit"
+    type: "select"
+    proxies:
+      - "Jantit"
+    include-all-providers: false
     hidden: true
 sub-rules: null
 listeners: null
