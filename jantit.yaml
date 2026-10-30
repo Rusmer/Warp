@@ -703,7 +703,7 @@ proxies:
     remote-dns-resolve: true
     dns:
       - 1.1.1.1
-      - 8.8.8.8
+      - 1.0.0.1
     amnezia-wg-option:
       jc: 4
       jmin: 36
@@ -714,7 +714,7 @@ proxies:
       h2: 2
       h3: 3
       h4: 4
-      i1: '<b 0xc90000000101330000405192e1bd5599bd2e53f1511752f3466f10eb99c457bb229fb837a3fced><r 53>
+      i1: '<b 0xc90000000101330000405192e1bd5599bd2e53f1511752f3466f10eb99c457bb229fb837a3fced><r 53>'
   - name: "🇮🇹 IT-1"
     type: wireguard
     server: it1.vpnjantit.com
