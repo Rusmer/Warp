@@ -85,10 +85,11 @@ proxy-providers:
       override-expr:
         - '.["allowed-ips"] = ["0.0.0.0/0", "::/0"]'
         - '.udp = true'
-        - '.mtu = 1420'
+        - '.mtu = 1380'
         - '.["remote-dns-resolve"] = true'
         - '.dns = ["1.1.1.1", "1.0.0.1"]'
-        - '.["amnezia-wg-option"] = {"jc": 4, "jmin": 35, "jmax": 95, "s1": 0, "s2": 0, "h1": 1, "h2": 2, "h3": 3, "h4": 4, "i1": "<b 0xcc00000001016400004055e3b29f773e9690cd35ac10079c2f76f6727a7d7ff02b33fde77daa490fd07e18><r 53>"}'
+        - '.["amnezia-wg-option"] = {"jc": 4, "jmin": 35, "jmax": 95, "s1": 0, "s2": 0, "h1": 1, "h2": 2, "h3": 3, "h4": 4, "i1": "<b 0xcf000000010161000040545293511b60bbebbc8b6566c18dd11978573777352656e49ffc91b81fb7b304><r 53>
+"}'
   white:
     health-check:
       enable: true
