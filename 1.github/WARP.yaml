@@ -88,8 +88,7 @@ proxy-providers:
       enable: true
       interval: 600
       url: "http://www.gstatic.com/generate_204"
-    interval: 86400
-white:
+  white:
     health-check:
       enable: false
       interval: 9999999
