@@ -693,16 +693,17 @@ proxies:
     server: ie1.vpnjantit.com
     port: 1024
     ip: 192.168.6.212
-    private-key: "mEFSwur0ylmtD8Nuy3XekYEso1o/eyRvhZNa1LffhVY="
+    private-key: "INmU1/76NsRl6jw8KTF7TxybbAokckwJ+hAEpdPoTXA="
     public-key: "20uxfqUf9yt1EbFCO2Dj/xIpAaM4Oo9p1sUaavcTcnk="
     allowed-ips:
       - "0.0.0.0/0"
       - "::/0"
     udp: true
+    mtu: 1380
     remote-dns-resolve: true
     dns:
       - 1.1.1.1
-      - 8.8.8.8
+      - 1.0.0.1
     amnezia-wg-option:
       jc: 4
       jmin: 36
@@ -713,7 +714,7 @@ proxies:
       h2: 2
       h3: 3
       h4: 4
-      i1: '<b 0xc4000000010163000040510f141808cbdac3d94e7c1845ace739264e7ad0d1167c05155550165c><r 53>'
+      i1: '<b 0xc90000000101330000405192e1bd5599bd2e53f1511752f3466f10eb99c457bb229fb837a3fced><r 53>
   - name: "🇮🇹 IT-1"
     type: wireguard
     server: it1.vpnjantit.com
