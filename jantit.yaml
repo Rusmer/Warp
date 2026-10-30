@@ -703,7 +703,7 @@ proxies:
     remote-dns-resolve: true
     dns:
       - 1.1.1.1
-      - 1.0.0.1
+      - 8.8.8.8
     amnezia-wg-option:
       jc: 4
       jmin: 36
