@@ -1,4 +1,30 @@
 proxies:
+  - name: 🇵🇰 PK-1
+    type: wireguard
+    server: pk2.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.167
+    private-key: "6Pdzcwmd0h7vHxVk5zBcE7grAqEugatN1H2ElhZ9NEM="
+    public-key: "Yx3upiEAjU4Ojp621cIjQ5dnLU640wSuUnThAMM4ig8="
+    allowed-ips:
+      - 0.0.0.0/0
+      - ::/0
+    udp: true
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: "<b 0xcc00000001013b000040578b88c056d6e1b6d5b5da67ae9d459755417e9f016054cfe40652c0eb1e7ad4c255da><r 53>"
   - name: 🇲🇾 MY-1 
     type: wireguard
     server: my2.vpnjantit.com
