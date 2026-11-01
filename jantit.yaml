@@ -1,4 +1,30 @@
 proxies:
+  - name: 🇰🇭 CB-1
+    type: wireguard
+    server: kh1.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.137
+    private-key: "eJGAAHwJp0U5Tk0XmFMo+9TzMp+l1IavN7tTLm+sDno="
+    public-key: "53ihHb/iCgg4Erk5ckr18bKSCos+pNA1Oltji6uf+1c="
+    allowed-ips:
+      - 0.0.0.0/0
+      - ::/0
+    udp: true
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: "<b 0xcc00000001013b000040578b88c056d6e1b6d5b5da67ae9d459755417e9f016054cfe40652c0eb1e7ad4c255da><r 53>"
   - name: 🇧🇩 BD-1
     type: wireguard
     server: bd2.vpnjantit.com
