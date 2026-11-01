@@ -215,12 +215,11 @@ proxies:
     type: wireguard
     server: cz3.vpnjantit.com
     port: 1024
-    ip: 192.168.6.91
+    ip: 192.168.6.134
     public-key: cDDEM+QcWIxHhrGDJm8baUaQUne+7LCtOEVA3XpZpW4=
-    private-key: uCU7fP9tTK75Tx6rWA5xZXhugEoRG1HVelX1CZlknGE=
+    private-key: iDY8JVAhsBD2FlbPe1G+hmGdEy0VuDaMFEEMeFrUhmw=
     udp: true
     mtu: 1380
-    remote-dns-resolve: true
     dns:
       - 1.1.1.1
       - 1.0.0.1
@@ -234,7 +233,7 @@ proxies:
       h2: 2
       h3: 3
       h4: 4
-      i1: "<b 0xcd00000001016e00004053e05b9098db0757665c403ec8abbb0f6cd2fc25b897b8ab33088ddd106529><r 53>"
+      i1: "0xcc00000001013b000040578b88c056d6e1b6d5b5da67ae9d459755417e9f016054cfe40652c0eb1e7ad4c255da"
   - name: "🇸🇪 SE-2"
     type: wireguard
     server: se2.vpnjantit.com
