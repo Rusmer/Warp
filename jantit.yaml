@@ -1,4 +1,30 @@
 proxies:
+  - name: 🇻🇳 VN-1
+    type: wireguard
+    server: vn1.vpnjantit.com
+    port: 51280
+    ip: 192.168.6.141
+    private-key: "cO8QdCFd6FpJWiKGzYZtTO8sE83/D3q0KfmrxoUhXk0="
+    public-key: "9Bs0Rz+4m3MATJnEMIEPBt8jYjjbW5/WN4/aBBBo0xU="
+    allowed-ips:
+      - 0.0.0.0/0
+      - ::/0
+    udp: true
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: "<b 0xcc00000001013b000040578b88c056d6e1b6d5b5da67ae9d459755417e9f016054cfe40652c0eb1e7ad4c255da><r 53>"
   - name: 🇦🇿 AZ-1
     type: wireguard
     server: az1.vpnjantit.com
