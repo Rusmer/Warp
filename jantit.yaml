@@ -1,4 +1,30 @@
 proxies:
+  - name: 🇭🇰 HK-1
+    type: wireguard
+    server: hk2.vpnjantit.com
+    port: 1024
+    ip: 192.168.6.15
+    private-key: "4G4UM5eNj3XqgDODmAyUHDeYN1HMRaN66aAj/1IMO2I="
+    public-key: "JRHETcI/tgKoFl1peP1PC3YqaeRDZxA3iyGGoyOsDEM="
+    allowed-ips:
+      - 0.0.0.0/0
+      - ::/0
+    udp: true
+    remote-dns-resolve: true
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: "<b 0xcc00000001013b000040578b88c056d6e1b6d5b5da67ae9d459755417e9f016054cfe40652c0eb1e7ad4c255da><r 53>"
   - name: 🇰🇭 CB-1
     type: wireguard
     server: kh1.vpnjantit.com
