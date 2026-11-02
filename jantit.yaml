@@ -450,18 +450,18 @@ proxies:
     type: wireguard
     server: ru1.vpnjantit.com
     port: 1024
-    ip: 192.168.6.251/32
-    private-key: "eHW3V0GYoxizfitktSrqNQP/4O71yYY22hfnRkOUVkI="
+    ip: 192.168.6.175
+    private-key: "cCdjlYuQpmqyha2oNyn8n/bpl44S2Dinf7clCUn1a0Q="
     public-key: "tk70sr7d0KSvJQjRzt2C5sngYINx3jIuP0KO25mO0WA="
     allowed-ips:
-      - "0.0.0.0/0"
-      - "::/0"
+      - 0.0.0.0/0
+      - ::/0
     udp: true
     mtu: 1380
     remote-dns-resolve: true
     dns:
       - 1.1.1.1
-      - 1.0.0.1
+      - 8.8.8.8
     amnezia-wg-option:
       jc: 4
       jmin: 35
@@ -472,7 +472,7 @@ proxies:
       h2: 2
       h3: 3
       h4: 4
-      i1: '<b 0xce00000001018d0000405491dbdfbac013251e406fde5afa8a41d5b91e0b2b78567bbf24bdd0f97bc2d6><r 53>'
+      i1: "<b 0xc10000000101f100004051b08587e9c5dc18af015105ce202cf63107ee126f274caf689378d1cf><r 53>"
   - name: "🇪🇪 EE-1"
     type: wireguard
     server: ee1.vpnjantit.com
