@@ -525,7 +525,7 @@ proxies:
       h2: 2
       h3: 3
       h4: 4
-      i1: "<b 0xc10000000101f100004051b08587e9c5dc18af015105ce202cf63107ee126f274caf689378d1cf><r 53>"
+      i1: "<b 0xcc00000001013b000040578b88c056d6e1b6d5b5da67ae9d459755417e9f016054cfe40652c0eb1e7ad4c255da><r 53>"
   - name: "🇩🇪 DE-1"
     type: wireguard
     server: cz2.vpnjantit.com
