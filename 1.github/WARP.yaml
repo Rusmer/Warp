@@ -388,6 +388,9 @@ proxy-groups:
       - "🇮🇩 Jantit"
       - "🔓 Без впн"
     lazy: true
+    use:
+     - Jantit
+    filter: "🇷🇺 RU-1"
     icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWvkhCAE-ZGGPFsqh-tno88LSPhNoh-AjAqQ&s"
   - name: "Geforce NOW Выбор"
     type: "select"
