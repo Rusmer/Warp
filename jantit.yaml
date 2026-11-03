@@ -396,18 +396,18 @@ proxies:
     type: wireguard
     server: fi1.vpnjantit.com
     port: 1024
-    ip: 192.168.6.75/32
-    private-key: "0FtG9XMR5crwnl1ZvjY/eISsmOSyZiIxGm3q3NHUiGs="
+    ip: 192.168.6.125
+    private-key: "AFpkwL/6N8YY7dW2uLVVGMDKbb8eIIPJNSdHYcA2eU8="
     public-key: "sF1tjG806mVtK8/56oE5lo66ewXiIIMSiLLC9Kg7D3w="
     allowed-ips:
-      - "0.0.0.0/0"
-      - "::/0"
+      - 0.0.0.0/0
+      - ::/0
     udp: true
-    mtu: 1420
+    mtu: 1380
     remote-dns-resolve: true
     dns:
       - 1.1.1.1
-      - 1.0.0.1
+      - 8.8.8.8
     amnezia-wg-option:
       jc: 4
       jmin: 35
@@ -418,7 +418,7 @@ proxies:
       h2: 2
       h3: 3
       h4: 4
-      i1: '<b 0xcc00000001016400004055e3b29f773e9690cd35ac10079c2f76f6727a7d7ff02b33fde77daa490fd07e18><r 53>'
+      i1: "<b 0xc10000000101f100004051b08587e9c5dc18af015105ce202cf63107ee126f274caf689378d1cf><r 53>"
   - name: "🇫🇮 FI-2"
     type: wireguard
     server: fi2.vpnjantit.com
@@ -445,7 +445,7 @@ proxies:
       h2: 2
       h3: 3
       h4: 4
-      i1: '<b 0xcc00000001016400004055e3b29f773e9690cd35ac10079c2f76f6727a7d7ff02b33fde77daa490fd07e18><r 53>'
+      i1: "<b 0xcc00000001013b000040578b88c056d6e1b6d5b5da67ae9d459755417e9f016054cfe40652c0eb1e7ad4c255da><r 53>"
   - name: "🇷🇺 RU-1"
     type: wireguard
     server: ru1.vpnjantit.com
