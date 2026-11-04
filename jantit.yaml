@@ -423,18 +423,18 @@ proxies:
     type: wireguard
     server: fi2.vpnjantit.com
     port: 1024
-    ip: 192.168.6.204/32
-    private-key: "4EM0G0uH8c5YeNC51NTtdZqh31PmPU/+NIEzihbHhHo="
+    ip: 192.168.6.172
+    private-key: "mIK5xVITnbP+mZ0+c/ov7X66Em3hy36L4qigb6vl5Xc="
     public-key: "rhCdRqMu8xO/Wyb8OeGltY+wqAvbAWh9hUkmy7nQzQs="
     allowed-ips:
-      - "0.0.0.0/0"
-      - "::/0"
+      - 0.0.0.0/0
+      - ::/0
     udp: true
-    mtu: 1420
+    mtu: 1380
     remote-dns-resolve: true
     dns:
       - 1.1.1.1
-      - 1.0.0.1
+      - 8.8.8.8
     amnezia-wg-option:
       jc: 4
       jmin: 35
