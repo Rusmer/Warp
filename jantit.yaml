@@ -1,4 +1,30 @@
 proxies:
+  - name: Route-64
+    type: wireguard
+    ip: 100.64.248.190
+    ipv6: "2a11:6c7:f30:34::2"
+    private-key: "mFG+jSOlT8Kt3CswYYn4c6hMUbqAciVV+tyxOVQbj3Y="
+    peers:
+      - server: 192.67.33.15
+        port: 20161
+        public-key: "eS2Cfl9p33JYVW75L/QifEz4dZ8/vn5Q0TXOjLsReEo="
+        allowed-ips:
+          - 0.0.0.0/0
+          - ::/0
+    udp: true
+    persistent-keepalive: 15
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: "<b 0xcc00000001013b000040578b88c056d6e1b6d5b5da67ae9d459755417e9f016054cfe40652c0eb1e7ad4c255da><r 53>"
+
   - name: 🇧🇷 BR-1
     type: wireguard
     server: br3.vpnjantit.com
