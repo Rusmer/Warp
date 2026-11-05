@@ -506,6 +506,7 @@ proxies:
     ip: 192.168.6.166
     private-key: "GMhKMy6S7kh7Zd1oB9ScVlEE3AZMQIVpnh/00Mbr7mI="
     public-key: "FeveuhtZzyHHrza13sIMnsywtRYXZpMDTCnQ1NXbsA8="
+    mtu: 1420
     allowed-ips:
       - 0.0.0.0/0
       - ::/0
@@ -515,9 +516,9 @@ proxies:
       - 1.1.1.1
       - 8.8.8.8
     amnezia-wg-option:
-      jc: 4
-      jmin: 35
-      jmax: 95
+      jc: 0
+      jmin: 0
+      jmax: 0
       s1: 0
       s2: 0
       h1: 1
