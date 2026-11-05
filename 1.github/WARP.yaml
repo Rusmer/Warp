@@ -81,18 +81,18 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/Rusmer/Warp/refs/heads/main/jantit.yaml"
     override:
-      mtu: 1380
+      mtu: 1420
       amnezia-wg-option:
-        jc: 4
-        jmin: 35
-        jmax: 95
+        jc: 0
+        jmin: 0
+        jmax: 0
         s1: 0
         s2: 0
         h1: 1
         h2: 2
         h3: 3
         h4: 4
-        i1: "<b 0xc700000001018b00004055eb12c1dc879205f86ca158c5e0082b5c9eda92e067a871c1d047a60fbb152358><r 53>"
+        i1: "<b 0xcc00000001013b000040578b88c056d6e1b6d5b5da67ae9d459755417e9f016054cfe40652c0eb1e7ad4c255da><r 53>"
       enable: true
       interval: 600
       url: "http://www.gstatic.com/generate_204"
