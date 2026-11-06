@@ -402,6 +402,7 @@ proxy-groups:
       - "🇮🇩 Jantit"
       - "🔓 Без впн"
     lazy: true
+    hidden: true
     icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWvkhCAE-ZGGPFsqh-tno88LSPhNoh-AjAqQ&s"
   - name: "Нейросети"
     type: "select"
