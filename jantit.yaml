@@ -131,11 +131,11 @@ proxies:
       i1: "<b 0xcc00000001013b000040578b88c056d6e1b6d5b5da67ae9d459755417e9f016054cfe40652c0eb1e7ad4c255da><r 53>"
   - name: 🇮🇩 ID-1
     type: wireguard
-    server: indo6.vpnjantit.com
+    server: indo3.vpnjantit.com
     port: 1024
     ip: 192.168.6.221
-    private-key: "kAWETPxgW7SeiYI3ZQX7mHfxKY8vQajZczS7dXM3k0E="
-    public-key: "LgRPEzHOmOAA6I3I8fnZnUhs+8qgBdWB2/x4pfi8MCk="
+    private-key: "KFqs1x/ly0lG3cLGPxvzCzzQMHmWDZYI1n/irvuH42A="
+    public-key: "4O2cxpnzKpK/5O9DvHk39UB26C3ICXkHqAIHqpb79E8="
     allowed-ips:
       - 0.0.0.0/0
       - ::/0
