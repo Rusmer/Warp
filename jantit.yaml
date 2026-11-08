@@ -477,7 +477,7 @@ proxies:
     server: ru1.vpnjantit.com
     port: 1024
     ip: 192.168.6.175
-    private-key: "cCdjlYuQpmqyha2oNyn8n/bpl44S2Dinf7clCUn1a0Q="
+    private-key: "eCNdiF37TY8s73HWo/bWw6n59BaRM3pTou9I7cx7c3U="
     public-key: "tk70sr7d0KSvJQjRzt2C5sngYINx3jIuP0KO25mO0WA="
     allowed-ips:
       - 0.0.0.0/0
