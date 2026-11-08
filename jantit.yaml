@@ -160,7 +160,7 @@ proxies:
     server: cl1.vpnjantit.com
     port: 1024
     ip: 192.168.6.177
-    private-key: "gLIPY1xP28GJeJbxGe07l2R/DspaRT4dcEZGw6qWHkM="
+    private-key: "qCdkb2H4vREx/l8xvW+Tx1+JTmeE2oOhz6Vhwf727kQ="
     public-key: "EsPO+q2MH03MPNp7Hu0qJ58UzKEOKiS5w4IhdXg9gRg="
     allowed-ips:
       - 0.0.0.0/0
