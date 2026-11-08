@@ -292,7 +292,7 @@ proxies:
     server: bh1.vpnjantit.com
     port: 1024
     ip: 192.168.6.100
-    private-key: "qFK7M8Qw6G9qYzVVdEhM5nTkw2gz9PN55lF6fqNEUHg="
+    private-key: "eNxIYDY7yehMKvulTdcG0OhugO3vAAmk8JjvH6K3pmw="
     public-key: "qGtIZb3faJq+hiHpyEucHyC2KlTlPchL+BJbwyIDKxQ="
     allowed-ips:
       - 0.0.0.0/0
