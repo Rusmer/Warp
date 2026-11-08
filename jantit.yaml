@@ -620,16 +620,16 @@ proxies:
       - 1.1.1.1
       - 1.0.0.1
     amnezia-wg-option:
-      jc: 40
-      jmin: 350
-      jmax: 950
-      s1: 0
-      s2: 0
       h1: 1
       h2: 2
       h3: 3
       h4: 4
-      i1: "<b 0xcc00000001013b000040578b88c056d6e1b6d5b5da67ae9d459755417e9f016054cfe40652c0eb1e7ad4c255da><r 53>"
+      i1: "<r 2><b 0x858000010001000000000669636c6f756403636f6d0000010001c00c000100010000105a00044d583737>"
+      jc: 6
+      jmax: 50
+      jmin: 10
+      s1: 0
+      s2: 0
   - name: "🇸🇪 SE-2"
     type: wireguard
     server: se2.vpnjantit.com
