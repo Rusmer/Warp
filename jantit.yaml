@@ -620,9 +620,9 @@ proxies:
       - 1.1.1.1
       - 1.0.0.1
     amnezia-wg-option:
-      jc: 4
-      jmin: 35
-      jmax: 95
+      jc: 40
+      jmin: 350
+      jmax: 950
       s1: 0
       s2: 0
       h1: 1
