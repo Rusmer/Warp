@@ -72,12 +72,12 @@ proxy-providers:
       port: 51820
       remote-dns-resolve: true
       udp: true
-    path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/proxies/0f6ead0d707953b9824286625cb343e2"
+   # path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/proxies/0f6ead0d707953b9824286625cb343e2"
     type: "http"
     url: "https://raw.githubusercontent.com/Rusmer/Warp/refs/heads/main/g2sort.yaml"
   jantit:
     interval: 86400
-    path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/proxies/0f6ead0d707953b9824286625cb343e3"
+ #   path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/proxies/0f6ead0d707953b9824286625cb343e3"
     type: "http"
     url: "https://raw.githubusercontent.com/Rusmer/Warp/refs/heads/main/jantit.yaml"
     override:
@@ -104,7 +104,7 @@ proxy-providers:
     interval: 86400
     override:
       dialer-proxy: "Выбор"
-    path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/proxies/e1e94ce02ce32dd60d81c8e841889619"
+#    path: "/data/user/0/com.follow.clash/files/profiles/providers/354236878553092096/proxies/e1e94ce02ce32dd60d81c8e841889619"
     type: "http"
     url: "https://da.rusmersr.workers.dev/all.yaml"
 rule-providers:
