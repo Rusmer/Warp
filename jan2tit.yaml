@@ -368,7 +368,7 @@ proxies:
     server: "fi2.vpnjantit.com"
     port: 1024
     ip: "192.168.6.29"
-    private-key: "kFVXFDWPqUOf949aBoq5Tb+mr1hCNR022sOL4YsiMWM="
+    private-key: "uC7w7YxWMM5kXVoRAY4T/84GR3I2iqMwz48oHB5bW1c="
     public-key: "rhCdRqMu8xO/Wyb8OeGltY+wqAvbAWh9hUkmy7nQzQs="
     allowed-ips:
       - "0.0.0.0/0"
