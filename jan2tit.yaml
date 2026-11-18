@@ -31,8 +31,8 @@ proxies:
     type: "wireguard"
     server: "ar1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.86"
-    private-key: "aFzpKry+yMUFUXe3o2T0V1lwOAhf9613/dvU0YDu+kg="
+    ip: "192.168.6.97"
+    private-key: "oGAr1kEPBoZlMZImCzuNoZyAg4MtFMmTOZ4N4LgYR0Y="
     public-key: "iXn11e1s79Icx67JvL2TVHHIlYYJ4nL8aZL/PnaVEzs="
     allowed-ips:
       - "0.0.0.0/0"
@@ -59,8 +59,8 @@ proxies:
     type: "wireguard"
     server: "at1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.121"
-    private-key: "cENQ/9XUgvzAKq0mKq9wGyGWtXGYliCk6/wudavkYlA="
+    ip: "192.168.6.136"
+    private-key: "ODlQ3hb3MLdZrTBMWfuU+lXEQjvcaDdA8+8B4F8BHVk="
     public-key: "1Y8teLO5VO+OE0NBpONCe4Xs4TV4JChrYiPhA9Jmoj8="
     allowed-ips:
       - "0.0.0.0/0"
@@ -115,8 +115,8 @@ proxies:
     type: "wireguard"
     server: "bg2.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.58"
-    private-key: "QAu5QfJa0ya5wFS0prEF1UT9ldQ4dg9l37x6wMhANHU="
+    ip: "192.168.6.173"
+    private-key: "KL47SOODnXncqEJGpyiIQYVZbYhIwuGbu38g4yLFCXc="
     public-key: "+uTyPtYzjKDNhdd4rJelkov1/trstqyZFFmw/DEzShM="
     allowed-ips:
       - "0.0.0.0/0"
@@ -227,8 +227,8 @@ proxies:
     type: "wireguard"
     server: "cz2.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.155"
-    private-key: "SGsYmKt7/f8dCYubobKI8L7RA3ns7qKdhA8JsyEQOm0="
+    ip: "192.168.6.84"
+    private-key: "IIAYjdU+WRWgPYOuYPLIzj7pNndSz4d78Xdy5pTWS30="
     public-key: "aMMk1dyubcXvxyypF6o4LKUkw2b1QyY6lMEC8jTi4lQ="
     allowed-ips:
       - "0.0.0.0/0"
@@ -255,8 +255,8 @@ proxies:
     type: "wireguard"
     server: "dk1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.114"
-    private-key: "IB5UW2kiwcELLuvAQUdEzBYPHNqcHZhqLlgp2daGW2U="
+    ip: "192.168.6.204"
+    private-key: "SK6TMnufCysg/5T/SnNeu/RM2baq0WzDXXfPn21jmkE="
     public-key: "pjpKQNaL4Io4WaYwtgWuTSgOZr5xMGRWukycR/AvcHU="
     allowed-ips:
       - "0.0.0.0/0"
@@ -283,8 +283,8 @@ proxies:
     type: "wireguard"
     server: "ee1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.229"
-    private-key: "8JWDGqsd0KL5IRCCxZ8wa3ucR1ZqLtxJY+/+MJI5e3A="
+    ip: "192.168.6.90"
+    private-key: "SNF52cCICL+VMQSrnKkQC01DLOjeJ9+cjuDDJok/uGg="
     public-key: "FeveuhtZzyHHrza13sIMnsywtRYXZpMDTCnQ1NXbsA8="
     allowed-ips:
       - "0.0.0.0/0"
@@ -311,8 +311,8 @@ proxies:
     type: "wireguard"
     server: "ee2.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.164"
-    private-key: "2EZfQh8tCCH0M3VP2eoFqHKoeh/hzB5calbQyaVcbEo="
+    ip: "192.168.6.253"
+    private-key: "8BkolUXZX0F7UM6AxzjTCL0reFe8xjgCfjD60u9vMWg="
     public-key: "LGV/MEIgFIz7vGcub5kN70N1+tMoIWhPINuKwVRiti0="
     allowed-ips:
       - "0.0.0.0/0"
@@ -339,8 +339,8 @@ proxies:
     type: "wireguard"
     server: "fi1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.87"
-    private-key: "2Icp10Q6rj00sfClr4Yms7L122Tkzvf9yIUnN6vBCFw="
+    ip: "192.168.6.68"
+    private-key: "OII6HG+YeGEVbH+YJm9s0qU0z62VMHva7CnJde+uXHc="
     public-key: "sF1tjG806mVtK8/56oE5lo66ewXiIIMSiLLC9Kg7D3w="
     allowed-ips:
       - "0.0.0.0/0"
@@ -367,8 +367,8 @@ proxies:
     type: "wireguard"
     server: "fi2.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.29"
-    private-key: "uC7w7YxWMM5kXVoRAY4T/84GR3I2iqMwz48oHB5bW1c="
+    ip: "192.168.6.206"
+    private-key: "6HPX/xXGxkquAlleDSvNdRP9u75K7mM8dnEkwLImtlg="
     public-key: "rhCdRqMu8xO/Wyb8OeGltY+wqAvbAWh9hUkmy7nQzQs="
     allowed-ips:
       - "0.0.0.0/0"
@@ -395,8 +395,8 @@ proxies:
     type: "wireguard"
     server: "fr1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.132"
-    private-key: "CHYB/lHTW/19qC/9wR08qo24dr0PhbEcbWBIUfwS618="
+    ip: "192.168.6.164"
+    private-key: "2D5QKFbvM0ex5t5rZiVdUvh8Hm8FC+0GPAMBONSjllU="
     public-key: "6124WN5oWEsHPg3SkbEH/FjjdsadpPgvbf2vhgWm7Qc="
     allowed-ips:
       - "0.0.0.0/0"
@@ -423,8 +423,8 @@ proxies:
     type: "wireguard"
     server: "gc1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.243"
-    private-key: "YKeVWrrbWnF9lb35PH+TRc5kZ3uO7PBJ8se2m5/zt1A="
+    ip: "192.168.6.52"
+    private-key: "8PnlqklwzsgbRM0ZwDkthi5bWPnYqeMR2A0cK1fOI0U="
     public-key: "l8mkun7y+kD7qF2/FfBdSkshTRzwsrQ0dB7BO0fG5A0="
     allowed-ips:
       - "0.0.0.0/0"
@@ -451,8 +451,8 @@ proxies:
     type: "wireguard"
     server: "gr1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.237"
-    private-key: "WMMoy/xu6FkhBuHz4wXAKwV8+HrOfs5rYcUd7srfnXQ="
+    ip: "192.168.6.214"
+    private-key: "IJwzCaiRqTwGjq8O1bfvsywphia96fO9Oik/T7Bssnk="
     public-key: "njXho7lcYc5Q4InilDYn+pzpDSD/zY0BeaBa64zDIWo="
     allowed-ips:
       - "0.0.0.0/0"
@@ -507,8 +507,8 @@ proxies:
     type: "wireguard"
     server: "hu1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.116"
-    private-key: "MDaNFZ1PZN5oxhqf7BPkxAtadINwRr00stGzWaY7mUc="
+    ip: "192.168.6.222"
+    private-key: "iPcLHRNN4JHP43WYYQd5Y1jX+VEwjKcCxqU3YyLRQ3o="
     public-key: "GljL00ouvuyBCvJ9ou6/4wN1bYEk2ooEAEUROIHMbwk="
     allowed-ips:
       - "0.0.0.0/0"
@@ -535,8 +535,8 @@ proxies:
     type: "wireguard"
     server: "ie1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.80"
-    private-key: "qOUHN4oxAC3W4kR5omebSBnkH9VEUU0euz6edIMAG0I="
+    ip: "192.168.6.240"
+    private-key: "kJVcDP0cWfjrXtCuHCgbHPh93u4WnNu40pErSk8pnWY="
     public-key: "20uxfqUf9yt1EbFCO2Dj/xIpAaM4Oo9p1sUaavcTcnk="
     allowed-ips:
       - "0.0.0.0/0"
@@ -563,8 +563,8 @@ proxies:
     type: "wireguard"
     server: "in1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.127"
-    private-key: "+FfbyMW4rxr0xbrDyws/B32RvYf1CSrCwlcGImfSE2U="
+    ip: "192.168.6.58"
+    private-key: "kCqfpCbqLjjrPbFpQqFUtDj9nNCSOembVliDt2Bx9WI="
     public-key: "k25I54gmB5jvQwRjYhl7qmAowsOi9rM0+LploK2CH1Y="
     allowed-ips:
       - "0.0.0.0/0"
@@ -619,8 +619,8 @@ proxies:
     type: "wireguard"
     server: "it1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.159"
-    private-key: "sL2XqjVUxiVmYtLzUyu7stxqfNFO/I2PTkOQ75jShmc="
+    ip: "192.168.6.178"
+    private-key: "uKlwUrMropXx0DkzjRqv2zPf6u04jj30RlGRILeUhWE="
     public-key: "pL3Fr8PmcMfjEgw2ZpOmQLr/G9X4m2EDzBE1o7BEpUA="
     allowed-ips:
       - "0.0.0.0/0"
@@ -647,8 +647,8 @@ proxies:
     type: "wireguard"
     server: "jp2.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.139"
-    private-key: "yHw+ULxEYYnnbBJU6fNk89kCU3mrKbJ8T+Q/vU2tqH8="
+    ip: "192.168.6.101"
+    private-key: "gCdlNMo3DoW7e9KLVSt1OZUGgvNzVD3S6/SfBAAb4EE="
     public-key: "dTabWXo0B07A5rXnbyW3AiY/SlfZy8JCKwhf3ZoYjx0="
     allowed-ips:
       - "0.0.0.0/0"
@@ -675,8 +675,8 @@ proxies:
     type: "wireguard"
     server: "kr2.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.16"
-    private-key: "SNcv/NKtimk6+8asFDRqXdYD7l06xTpYZCiqdeHbUlk="
+    ip: "192.168.6.28"
+    private-key: "GEvPODVIFQbpcW+J6/qA8ZqL16eO6W9rqiIWzJNjpnM="
     public-key: "asC7OwtChumH+HM/pt5gOpIKn2vtAj+vuwP3/QW4yg4="
     allowed-ips:
       - "0.0.0.0/0"
@@ -703,8 +703,8 @@ proxies:
     type: "wireguard"
     server: "lt1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.181"
-    private-key: "yOXup+Ohe7qaj9TVSAQCo5TgiK4C5CnfDSwbi/d1kVc="
+    ip: "192.168.6.176"
+    private-key: "SOVHzppZDN+mX85d3zJ4iVgoKQ9Cwsn+MzYjxcTFHHI="
     public-key: "az4RIH8N9ct0CHhOLJB4rU8iMOnlPxTNh2zPGn3tGx8="
     allowed-ips:
       - "0.0.0.0/0"
@@ -731,8 +731,8 @@ proxies:
     type: "wireguard"
     server: "lu1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.114"
-    private-key: "wLqdaPsTK88mwQgjRZgg4Csfheo2zwfOyNejZYQUlkw="
+    ip: "192.168.6.189"
+    private-key: "2IcZkrkFC55ZfkuywHKng5VXj+A2+iHGA7PBYurhCmE="
     public-key: "Nluf3pAXD0V+sWsFSBdVorF73886ihe9Oaz9wAL74ik="
     allowed-ips:
       - "0.0.0.0/0"
@@ -759,8 +759,8 @@ proxies:
     type: "wireguard"
     server: "lv1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.189"
-    private-key: "2D/wLwSlbXBXG+MuyXMDCvzSzFRn4rHaFgyH8kMbVns="
+    ip: "192.168.6.163"
+    private-key: "0BOyq4HK9u6jHIjZMXvoMcSgb/Em9sfu3qdEX2X/m0U="
     public-key: "OxuczEDPtabvj+hACzXuUpvRIs0IVWyrHzT4j0qcHj8="
     allowed-ips:
       - "0.0.0.0/0"
@@ -787,8 +787,8 @@ proxies:
     type: "wireguard"
     server: "md1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.231"
-    private-key: "IGAIRWEWNS+jN0SWUQW8RcQT0XGpq5ft0t3oRTsP8HY="
+    ip: "192.168.6.177"
+    private-key: "gHbhh5Skw3hngT9I1Sc43MLvF06Uowi5HkorMJU5TnA="
     public-key: "3ynxUwnrow7W66ijf+bsip4bvQxI9lfC0h/S5fJCrgs="
     allowed-ips:
       - "0.0.0.0/0"
@@ -871,8 +871,8 @@ proxies:
     type: "wireguard"
     server: "nl1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.175"
-    private-key: "iLiphT8HPh291fOiZ8VDtRu/LGarR5TTyH3Ab/nr4VU="
+    ip: "192.168.6.52"
+    private-key: "CMWhOga9KEi3u+EHomBY9vDPSRrjSbBQ61sSQCsWMGI="
     public-key: "yjd8Ix+3ostgtoVuKb29BGhZClXL24dWR4CKeLXg6WA="
     allowed-ips:
       - "0.0.0.0/0"
@@ -899,8 +899,8 @@ proxies:
     type: "wireguard"
     server: "ph1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.14"
-    private-key: "QC+G5JmWeugy9UCQFAIKRUbUvN9CsmQWnKKYpJWiOVQ="
+    ip: "192.168.6.103"
+    private-key: "GK3MgwLLP1ilA2Qpq0vDMHOP97Mwubpj6/Tra6qiulU="
     public-key: "PZfjXnRAHyA3ZmCR3p+BilO3+lDZOG48m4DHMyVMWwU="
     allowed-ips:
       - "0.0.0.0/0"
@@ -927,8 +927,8 @@ proxies:
     type: "wireguard"
     server: "pl1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.199"
-    private-key: "EO6sGbNX0iNnnL9Hie6RhW4DckRKuH7/JQJchO2UsEc="
+    ip: "192.168.6.136"
+    private-key: "COqfwqldBFxN0P77HhBX4awRSjOV5/NaxC7uOGDJwl0="
     public-key: "qqnzL/uVeFWvwKOWkmV4BbKcWiVIbkssDurkvVPWazU="
     allowed-ips:
       - "0.0.0.0/0"
@@ -955,8 +955,8 @@ proxies:
     type: "wireguard"
     server: "pt1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.194"
-    private-key: "UOErVsJOXHVwEbHdAzAO03+g/u+cOM0C8SqYsmgXbnc="
+    ip: "192.168.6.152"
+    private-key: "aBVzJRxBG0G2QBnNBdoXqCkFI2mbWkTEg2VCzmRsAHs="
     public-key: "bRlmdNfjTVQSHDON4OQEg9dHaKW2bLXVHOxc88Fd+kM="
     allowed-ips:
       - "0.0.0.0/0"
@@ -983,8 +983,8 @@ proxies:
     type: "wireguard"
     server: "ro1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.252"
-    private-key: "kM7RanNg5pNMij50TAqhD7Q+Er0nTD1D11sUxm2Jpmk="
+    ip: "192.168.6.219"
+    private-key: "gPtYNbUNnSklcYFu6CSkzKK0tWKXQPfcCHlohD0CaW0="
     public-key: "m6dGRUgrXx3RRHqjxhJp8JigYXJ8o02LIxqUFQBheWo="
     allowed-ips:
       - "0.0.0.0/0"
@@ -1011,8 +1011,8 @@ proxies:
     type: "wireguard"
     server: "ru1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.53"
-    private-key: "gNCBCrfHRYbzHkOjF3OCu/iAcga5/SxO97OIiENJVUM="
+    ip: "192.168.6.170"
+    private-key: "SPeZW37V1PnErON6rwxiyCeE8UlF+NN13A00A125OU0="
     public-key: "tk70sr7d0KSvJQjRzt2C5sngYINx3jIuP0KO25mO0WA="
     allowed-ips:
       - "0.0.0.0/0"
@@ -1039,8 +1039,8 @@ proxies:
     type: "wireguard"
     server: "se1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.133"
-    private-key: "qMFX3OYUWR+XVLYMOijAnykn8REuN5lyH/pROtd0KlQ="
+    ip: "192.168.6.140"
+    private-key: "SFpBW+oAlxt2ATBP4CXIC2d6VNQkZBOOJFhvZsyFIVU="
     public-key: "MTgdWRt9dr+4YT6DSl0Z6+YBdY0S3nbKoLSSw5uGahs="
     allowed-ips:
       - "0.0.0.0/0"
@@ -1067,8 +1067,8 @@ proxies:
     type: "wireguard"
     server: "se2.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.55"
-    private-key: "6BPU6T+E321dVN7wFA+TxhcBbXR0RoFOZDFkZCf50Vs="
+    ip: "192.168.6.226"
+    private-key: "AAo4AGNDHJioITDV1NGVvElZd8tgoUZF1viMLiAo62c="
     public-key: "WHDJ0JEVhQAzzzyEYZ7igs1MW2ypjwJ7YmjbEdjutiY="
     allowed-ips:
       - "0.0.0.0/0"
@@ -1095,8 +1095,8 @@ proxies:
     type: "wireguard"
     server: "sg1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.234"
-    private-key: "+EYeFn6CYowPzhw54ENCla6/xpkeFMvVl9zb2Bhv/UU="
+    ip: "192.168.6.159"
+    private-key: "8JyOGfEG8KE765nog1nU/H978X3emUq1sANVsZI0fl0="
     public-key: "VzT2lFfjaWbn+zLzYgTLve0VjuZY0cQhG0fKLkLkeHA="
     allowed-ips:
       - "0.0.0.0/0"
@@ -1123,8 +1123,8 @@ proxies:
     type: "wireguard"
     server: "sk1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.206"
-    private-key: "kM4JVNjfTn3N21Jdya6RXIDtDdZcGOlfCOj9I60N22E="
+    ip: "192.168.6.41"
+    private-key: "OGsTlBQYostLO52JfhN9NcKIuZu52OEPfhd8KEWE1Ug="
     public-key: "otKewgDwf83F52aFRsQstbYJYDEitaCe5NDtJIhf3ns="
     allowed-ips:
       - "0.0.0.0/0"
@@ -1151,8 +1151,8 @@ proxies:
     type: "wireguard"
     server: "sp1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.61"
-    private-key: "YOH+pFEdvZpbiD25Yans8LWKCg14MRWSFhUXDo5qsl4="
+    ip: "192.168.6.69"
+    private-key: "AMBjEZS85wPCs9oVmU05oGB4t6ulnt3Gaor4E6/h2Xc="
     public-key: "JxM7PXd9enrItE6G/TxwSSu+PbUDI90MeTF9+Thkoj8="
     allowed-ips:
       - "0.0.0.0/0"
@@ -1179,8 +1179,8 @@ proxies:
     type: "wireguard"
     server: "sz1.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.92"
-    private-key: "SJQ8hT+IhT4PXb0C1i9qFJapxRBA8jPPi+zUozz2m3Y="
+    ip: "192.168.6.159"
+    private-key: "QDpyvfsGK99E8cn3OfKAEhn7mdSyHhavHtQLQSuVZX4="
     public-key: "H+brbZg2amUGEWnY6DPP1k8+bjoq1Da/rTycHnbhIX4="
     allowed-ips:
       - "0.0.0.0/0"
@@ -1263,8 +1263,8 @@ proxies:
     type: "wireguard"
     server: "ua1.vpnjantit.com"
     port: 1025
-    ip: "192.168.6.99"
-    private-key: "SLkzyBuG87d00Tlet1lZ0lRHXSvbars6YRRj4I1rMkw="
+    ip: "192.168.6.252"
+    private-key: "8N0sksRZzgOYNv+2tqsSshThZCfqbcZBxbla0D1qalY="
     public-key: "7AZOcCZW0S7MKdR8YRRe39ZQMf/qaeilygp3WxugnBs="
     allowed-ips:
       - "0.0.0.0/0"
@@ -1291,8 +1291,8 @@ proxies:
     type: "wireguard"
     server: "uk.vpnjantit.com"
     port: 1024
-    ip: "192.168.6.212"
-    private-key: "+AwqxxSTVa6csJoyFnhMnUvV+4Ssx4c/8iBkt4stmEQ="
+    ip: "192.168.6.213"
+    private-key: "qNG+ECGIWjlRJ1q3rnWXzdWE6kZdbDMlmO7NUM0zgUg="
     public-key: "zwBItQRGuJze84z4Gv/27O/Xq4CIA0BBCRLWiEXnwC4="
     allowed-ips:
       - "0.0.0.0/0"
