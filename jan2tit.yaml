@@ -1039,6 +1039,7 @@ proxies:
     type: "wireguard"
     server: "se1.vpnjantit.com"
     port: 1024
+    dialer-proxy: Cloudflare WARP 
     ip: "192.168.6.140"
     private-key: "SFpBW+oAlxt2ATBP4CXIC2d6VNQkZBOOJFhvZsyFIVU="
     public-key: "MTgdWRt9dr+4YT6DSl0Z6+YBdY0S3nbKoLSSw5uGahs="
@@ -1067,6 +1068,7 @@ proxies:
     type: "wireguard"
     server: "se2.vpnjantit.com"
     port: 1024
+    dialer-proxy: Cloudflare WARP 
     ip: "192.168.6.226"
     private-key: "AAo4AGNDHJioITDV1NGVvElZd8tgoUZF1viMLiAo62c="
     public-key: "WHDJ0JEVhQAzzzyEYZ7igs1MW2ypjwJ7YmjbEdjutiY="
