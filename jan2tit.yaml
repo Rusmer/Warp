@@ -59,6 +59,7 @@ proxies:
     type: "wireguard"
     server: "at1.vpnjantit.com"
     port: 1024
+    dialer-proxy: Cloudflare WARP
     ip: "192.168.6.136"
     private-key: "ODlQ3hb3MLdZrTBMWfuU+lXEQjvcaDdA8+8B4F8BHVk="
     public-key: "1Y8teLO5VO+OE0NBpONCe4Xs4TV4JChrYiPhA9Jmoj8="
@@ -87,6 +88,7 @@ proxies:
     type: "wireguard"
     server: "be1.vpnjantit.com"
     port: 1024
+    dialer-proxy: Cloudflare WARP
     ip: "192.168.6.189"
     private-key: "yLVWdByVsnx1KGkDh6Wbd9fOXDKoEr2yzVPqNSpcnXA="
     public-key: "cKLJBM2MuGrQncUVwnDd32Sqk4nGnoZhJ71MIMrFc2g="
@@ -171,6 +173,7 @@ proxies:
     type: "wireguard"
     server: "ca1.vpnjantit.com"
     port: 1024
+    dialer-proxy: Cloudflare WARP
     ip: "192.168.6.102"
     private-key: "MBUvK/YZy2bEXR3Td8PFZ2qc9roCUthE68f5QfEIDEw="
     public-key: "EA6LNu4SWrCWp5XzbPNNBwRmabb2m0trfjtvcIHdEnQ="
@@ -199,6 +202,7 @@ proxies:
     type: "wireguard"
     server: "cl1.vpnjantit.com"
     port: 1024
+    dialer-proxy: Cloudflare WARP
     ip: "192.168.6.198"
     private-key: "qLYLPy6yT6dzzuScdUQJ3+XMJqNBEBZoIKRwk0tFqn4="
     public-key: "EsPO+q2MH03MPNp7Hu0qJ58UzKEOKiS5w4IhdXg9gRg="
@@ -227,6 +231,7 @@ proxies:
     type: "wireguard"
     server: "cz2.vpnjantit.com"
     port: 1024
+    dialer-proxy: Cloudflare WARP
     ip: "192.168.6.84"
     private-key: "IIAYjdU+WRWgPYOuYPLIzj7pNndSz4d78Xdy5pTWS30="
     public-key: "aMMk1dyubcXvxyypF6o4LKUkw2b1QyY6lMEC8jTi4lQ="
@@ -591,6 +596,7 @@ proxies:
     type: "wireguard"
     server: "indo.vpnjantit.com"
     port: 1024
+    dialer-proxy: Cloudflare WARP
     ip: "192.168.6.102"
     private-key: "+CKWu9Im8Fg2aMd1luQo22HFD533ZFl8MGfAXSuddU8="
     public-key: "kWmgJyZjlTN/oLDtp9YOt99ZNUoDDXZpBtr0usR5yho="
@@ -619,6 +625,7 @@ proxies:
     type: "wireguard"
     server: "it1.vpnjantit.com"
     port: 1024
+    dialer-proxy: Cloudflare WARP
     ip: "192.168.6.178"
     private-key: "uKlwUrMropXx0DkzjRqv2zPf6u04jj30RlGRILeUhWE="
     public-key: "pL3Fr8PmcMfjEgw2ZpOmQLr/G9X4m2EDzBE1o7BEpUA="
@@ -647,6 +654,7 @@ proxies:
     type: "wireguard"
     server: "jp2.vpnjantit.com"
     port: 1024
+    dialer-proxy: Cloudflare WARP
     ip: "192.168.6.101"
     private-key: "gCdlNMo3DoW7e9KLVSt1OZUGgvNzVD3S6/SfBAAb4EE="
     public-key: "dTabWXo0B07A5rXnbyW3AiY/SlfZy8JCKwhf3ZoYjx0="
@@ -675,6 +683,7 @@ proxies:
     type: "wireguard"
     server: "kr2.vpnjantit.com"
     port: 1024
+    dialer-proxy: Cloudflare WARP
     ip: "192.168.6.28"
     private-key: "GEvPODVIFQbpcW+J6/qA8ZqL16eO6W9rqiIWzJNjpnM="
     public-key: "asC7OwtChumH+HM/pt5gOpIKn2vtAj+vuwP3/QW4yg4="
@@ -787,6 +796,7 @@ proxies:
     type: "wireguard"
     server: "md1.vpnjantit.com"
     port: 1024
+    dialer-proxy: Cloudflare WARP
     ip: "192.168.6.177"
     private-key: "gHbhh5Skw3hngT9I1Sc43MLvF06Uowi5HkorMJU5TnA="
     public-key: "3ynxUwnrow7W66ijf+bsip4bvQxI9lfC0h/S5fJCrgs="
@@ -871,6 +881,7 @@ proxies:
     type: "wireguard"
     server: "nl1.vpnjantit.com"
     port: 1024
+    dialer-proxy: Cloudflare WARP
     ip: "192.168.6.52"
     private-key: "CMWhOga9KEi3u+EHomBY9vDPSRrjSbBQ61sSQCsWMGI="
     public-key: "yjd8Ix+3ostgtoVuKb29BGhZClXL24dWR4CKeLXg6WA="
@@ -953,6 +964,7 @@ proxies:
       i1: "<b 0xcc00000001013b000040578b88c056d6e1b6d5b5da67ae9d459755417e9f016054cfe40652c0eb1e7ad4c255da><r 53>"
   - name: "🇵🇹 PT1 Portugal"
     type: "wireguard"
+    dialer-proxy: Cloudflare WARP
     server: "pt1.vpnjantit.com"
     port: 1024
     ip: "192.168.6.152"
@@ -1125,6 +1137,7 @@ proxies:
     type: "wireguard"
     server: "sk1.vpnjantit.com"
     port: 1024
+    dialer-proxy: Cloudflare WARP
     ip: "192.168.6.41"
     private-key: "OGsTlBQYostLO52JfhN9NcKIuZu52OEPfhd8KEWE1Ug="
     public-key: "otKewgDwf83F52aFRsQstbYJYDEitaCe5NDtJIhf3ns="
@@ -1153,6 +1166,7 @@ proxies:
     type: "wireguard"
     server: "sp1.vpnjantit.com"
     port: 1024
+    dialer-proxy: Cloudflare WARP
     ip: "192.168.6.69"
     private-key: "AMBjEZS85wPCs9oVmU05oGB4t6ulnt3Gaor4E6/h2Xc="
     public-key: "JxM7PXd9enrItE6G/TxwSSu+PbUDI90MeTF9+Thkoj8="
@@ -1235,6 +1249,7 @@ proxies:
       i1: "<b 0xcc00000001013b000040578b88c056d6e1b6d5b5da67ae9d459755417e9f016054cfe40652c0eb1e7ad4c255da><r 53>"
   - name: "🇹🇷 TR1 Turkey"
     type: "wireguard"
+    dialer-proxy: Cloudflare WARP
     server: "tr1.vpnjantit.com"
     port: 1024
     ip: "192.168.6.99"
@@ -1293,6 +1308,7 @@ proxies:
     type: "wireguard"
     server: "uk.vpnjantit.com"
     port: 1024
+    dialer-proxy: Cloudflare WARP
     ip: "192.168.6.213"
     private-key: "qNG+ECGIWjlRJ1q3rnWXzdWE6kZdbDMlmO7NUM0zgUg="
     public-key: "zwBItQRGuJze84z4Gv/27O/Xq4CIA0BBCRLWiEXnwC4="
