@@ -256,6 +256,35 @@ proxies:
       h3: 3
       h4: 4
       i1: "<b 0xcc00000001013b000040578b88c056d6e1b6d5b5da67ae9d459755417e9f016054cfe40652c0eb1e7ad4c255da><r 53>"
+  - name: "🇨🇿 CZ2 Czech Republic"
+    type: "wireguard"
+    server: "cz3.vpnjantit.com"
+    port: 1024
+    dialer-proxy: Cloudflare WARP
+    ip: "192.168.6.209"
+    private-key: "0AcE1UrwNUxkBVakbkKlwnMIW+6M4b62q5UgtXwiZXg="
+    public-key: "cDDEM+QcWIxHhrGDJm8baUaQUne+7LCtOEVA3XpZpW4="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
+    dns:
+      - "1.1.1.1"
+      - "8.8.8.8"
+    remote-dns-resolve: true
+    persistent-keepalive: 25
+    mtu: 1420
+    udp: true
+    amnezia-wg-option:
+      jc: 4
+      jmin: 35
+      jmax: 95
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+      i1: "<b 0xcc00000001013b000040578b88c056d6e1b6d5b5da67ae9d459755417e9f016054cfe40652c0eb1e7ad4c255da><r 53>"
   - name: "🇩🇰 DK1 Denmark"
     type: "wireguard"
     server: "dk1.vpnjantit.com"
