@@ -732,10 +732,19 @@ proxies:
     server: 162.159.198.2
     port: 443
   - name: "[🎭] WARP-MASQUE H2"
-    <<: *warp-masque
-    server: 162.159.198.2
+    dns:
+      - "1.1.1.1"
+      - "1.0.0.1"
+    ip: "172.16.0.2"
+    network: "h2"
     port: 443
-    network: h2
+    private-key: "MHcCAQEEIJZFTV/3AhxEZ8WQK8Lm53Zxyrt67UafDuo2Uu9QYsncoAoGCCqGSM49AwEHoUQDQgAE57kaS6t3BrM1e4ydKz43ZeZK7uVAaL1rv1m8+MbIwiJBrUdcGSWGD5AF21Bb/FIKQBl8pDexxyaVmU+gIvN6lg=="
+    public-key: "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w=="
+    remote-dns-resolve: true
+    server: "162.159.199.72"
+    sni: "icloud.com"
+    type: "masque"
+    udp: true
 
 # === BEGIN RULE-PROVIDERS (auto-generated from settings/rule-providers.json — do not edit) ===
 rule-providers:
